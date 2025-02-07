@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hinglish Word Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Hinglish Word Generator</h1>
+        <div class="word-display" id="wordDisplay">Click the button!</div>
+        <button onclick="generateWord()">Generate Word</button>
+    </div>
+
+    <script>
+        function generateWord() {
+            fetch('/generate')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('wordDisplay').textContent = data.word;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
