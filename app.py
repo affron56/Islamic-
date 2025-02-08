@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Curated list of 200+ common Hindi words in English (Expandable to 2000)
 islamic_words = [
 
-    
+    "Zaid Bin Haris"
 
 
 ]
