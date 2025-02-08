@@ -7,12 +7,11 @@ app = Flask(__name__)
 # Curated list of 200+ common Hindi words in English (Expandable to 2000)
 islamic_words = [
 
-
     # Paigambar (Prophets)
     "Adam", "Ibrahim", "Ismail", "Ishaq", "Yaqub", "Yusuf", "Musa", "Harun", "Dawud", "Sulaiman",
     "Yunus", "Ilyas", "Ayyub", "Zakariya", "Yahya", "Isa", "Muhammad",
 
-    # Allah ke Wali (Saints and Righteous People)
+    # Allah Ke Wali (Saints And Righteous People)
     "Abu Bakr", "Umar", "Usman", "Ali", "Khadija", "Fatima", "Hassan", "Hussain", "Bilal", "Salman",
     "Suhail", "Uthman", "Ammar", "Zubair", "Talha", "Saad", "Saeed", "Abdullah", "Usama", "Zaid",
 
@@ -20,16 +19,16 @@ islamic_words = [
     "Ali", "Hassan", "Hussain", "Zainul Abideen", "Muhammad Baqir", "Jafar Sadiq", "Musa Kazim",
     "Ali Raza", "Muhammad Taqi", "Ali Naqi", "Hassan Askari", "Muhammad Mehdi",
 
-    # Jungon ke Naam (Famous Battles)
+    # Jungon Ke Naam (Famous Battles)
     "Badr", "Uhud", "Khandaq", "Khyber", "Hunain", "Tabuk", "Muta", "Yarmouk", "Qadisiyya", "Siffin",
     "Nahrawan", "Karbala", "Jamal", "Harrah", "Plassey", "Panipat", "Hattin", "Ain Jalut", "Manzikert",
 
-    # Jagah ke Naam (Holy Places and Cities)
+    # Jagah Ke Naam (Holy Places And Cities)
     "Makkah", "Madinah", "Jerusalem", "Karbala", "Najaf", "Kufa", "Basra", "Damascus", "Baghdad",
     "Cairo", "Istanbul", "Samarra", "Qom", "Medina", "Taif", "Jeddah", "Hebron", "Ghaza", "Sanaa",
     "Khartoum", "Timbuktu", "Cordoba", "Granada", "Delhi", "Lahore", "Karachi", "Jakarta", "Kuala Lumpur",
 
-    # Quranic Words and Phrases
+    # Quranic Words And Phrases
     "Allah", "Rahman", "Rahim", "Malik", "Quddus", "Salam", "Mumin", "Muhaymin", "Aziz", "Jabbar",
     "Mutakabbir", "Khaliq", "Bari", "Musawwir", "Ghaffar", "Qahhar", "Wahhab", "Razzaq", "Fattah",
     "Alim", "Qabid", "Basit", "Khafid", "Rafi", "Muizz", "Mudhill", "Samee", "Basir", "Hakam",
@@ -38,11 +37,11 @@ islamic_words = [
     "Baith", "Hashr", "Qiyamah", "Jannah", "Jahannum", "Siraat", "Mizan", "Hawd", "Shafaah",
 
     # Islamic Months
-    "Muharram", "Safar", "Rabi al-Awwal", "Rabi al-Thani", "Jumada al-Awwal", "Jumada al-Thani",
+    "Muharram", "Safar", "Rabi Al-Awwal", "Rabi Al-Thani", "Jumada Al-Awwal", "Jumada Al-Thani",
     "Rajab", "Shaaban", "Ramadan", "Shawwal", "Dhul Qadah", "Dhul Hijjah",
 
     
-    # Asma ul-Husna (Allah ke 99 Naam)
+    # Asma Ul-Husna (Allah Ke 99 Naam)
     "Ar-Rahman", "Ar-Rahim", "Al-Malik", "Al-Quddus", "As-Salam", "Al-Mumin", "Al-Muhaymin",
     "Al-Aziz", "Al-Jabbar", "Al-Mutakabbir", "Al-Khaliq", "Al-Bari", "Al-Musawwir", "Al-Ghaffar",
     "Al-Qahhar", "Al-Wahhab", "Ar-Razzaq", "Al-Fattah", "Al-Alim", "Al-Qabid", "Al-Basit",
@@ -51,11 +50,11 @@ islamic_words = [
     "Al-Hafiz", "Al-Muqit", "Al-Hasib", "Al-Jalil", "Al-Karim", "Ar-Raqib", "Al-Mujib", "Al-Wasi",
     "Al-Hakim", "Al-Wadud", "Al-Majid", "Al-Wahid", "Al-Ahad", "As-Samad", "Al-Qadir", "Al-Muqtadir",
     "Al-Muqaddim", "Al-Muakhkhir", "Al-Awwal", "Al-Akhir", "Az-Zahir", "Al-Batin", "Al-Wali",
-    "Al-Mutaali", "Al-Barr", "At-Tawwab", "Al-Muntaqim", "Al-Afuww", "Ar-Rauf", "Malik ul-Mulk",
-    "Dhul-Jalali wal-Ikram", "Al-Muqsit", "Al-Jami", "Al-Ghani", "Al-Mughni", "Al-Mani", "Ad-Darr",
+    "Al-Mutaali", "Al-Barr", "At-Tawwab", "Al-Muntaqim", "Al-Afuww", "Ar-Rauf", "Malik Ul-Mulk",
+    "Dhul-Jalali Wal-Ikram", "Al-Muqsit", "Al-Jami", "Al-Ghani", "Al-Mughni", "Al-Mani", "Ad-Darr",
     "An-Nafi", "An-Nur", "Al-Hadi", "Al-Badi", "Al-Baqi", "Al-Warith", "Ar-Rashid", "As-Sabur",
 
-    # Quran ki Surahon ke Naam (114 Surahs)
+    # Quran Ki Surahon Ke Naam (114 Surahs)
     "Al-Fatiha", "Al-Baqarah", "Al-Imran", "An-Nisa", "Al-Maidah", "Al-Anam", "Al-Araf", "Al-Anfal",
     "At-Tawbah", "Yunus", "Hud", "Yusuf", "Ar-Rad", "Ibrahim", "Al-Hijr", "An-Nahl", "Al-Isra",
     "Al-Kahf", "Maryam", "Taha", "Al-Anbiya", "Al-Hajj", "Al-Muminun", "An-Nur", "Al-Furqan",
@@ -72,7 +71,7 @@ islamic_words = [
     "Al-Asr", "Al-Humazah", "Al-Fil", "Quraysh", "Al-Maun", "Al-Kawthar", "Al-Kafirun", "An-Nasr",
     "Al-Masad", "Al-Ikhlas", "Al-Falaq", "An-Nas",
 
-    # Paigambar aur Sahaba ke Naam (150+)
+    # Paigambar Aur Sahaba Ke Naam (150+)
     "Hazrat Adam", " Hazrat Nuh", "Idris", "Hud", "Salih", "Ibrahim", "Lut", "Ismail", "Ishaq", "Yaqub", "Yusuf",
     "Ayyub", "Shuayb", "Musa", "Harun", "Dawud", "Sulaiman", "Ilyas", "Al-Yasa", "Yunus", "Zakariya",
     "Yahya", "Isa", "Muhammad", "Abu Bakr", "Umar", "Usman", "Ali", "Talha", "Zubair", "Abdur Rahman",
@@ -80,20 +79,20 @@ islamic_words = [
     "Usama", "Abbas", "Hamza", "Khalid", "Amr", "Abu Talib", "Abu Sufyan", "Hind", "Aisha", "Hafsa",
     "Zainab", "Safiyya", "Umm Salama", "Fatima", "Ruqayyah", "Umm Kulthum", "Asma", "Sumayyah",
 
-    # Islami Jungen aur Ghazawat (50+)
+    # Islami Jungen Aur Ghazawat (50+)
     "Badr", "Uhud", "Khandaq", "Khaybar", "Hunain", "Tabuk", "Muta", "Yarmouk", "Qadisiyya", "Siffin",
     "Nahrawan", "Karbala", "Jamal", "Harrah", "Plassey", "Panipat", "Hattin", "Ain Jalut", "Manzikert",
-    "Talas", "Tours", "Vienna", "Guadalete", "Constantinople", "Andalusia", "Ghazwa-e-Hind", "Tabuk",
+    "Talas", "Tours", "Vienna", "Guadalete", "Constantinople", "Andalusia", "Ghazwa-E-Hind", "Tabuk",
     "Trench", "Yamama", "Ridda", "Nahrawan", "Siffeen", "Camel", "Siffin", "Karbala", "Harrah",
 
     # Mukaddas Jagah (100+)
-    "Kaaba", "Masjid-e-Nabwi", "Baitul Maqdis", "Masjid-e-Aqsa", "Jannatul Baqi", "Jannatul Mualla",
-    "Jabal-e-Noor", "Jabal-e-Rahmat", "Mina", "Muzdalifah", "Arafat", "Safa-Marwa", "Zamzam", "Hira",
+    "Kaaba", "Masjid-E-Nabwi", "Baitul Maqdis", "Masjid-E-Aqsa", "Jannatul Baqi", "Jannatul Mualla",
+    "Jabal-E-Noor", "Jabal-E-Rahmat", "Mina", "Muzdalifah", "Arafat", "Safa-Marwa", "Zamzam", "Hira",
     "Thawr", "Badr", "Uhud", "Quba", "Najaf", "Karbala", "Kufa", "Samarra", "Qom", "Medina", "Taif",
     "Jeddah", "Hebron", "Ghaza", "Damascus", "Baghdad", "Cairo", "Istanbul", "Cordoba", "Timbuktu",
     "Al-Azhar", "Alhambra", "Fatehpur Sikri", "Ajmer", "Delhi", "Lahore", "Multan", "Makkah", "Madinah",
 
-    # Islami Aqeeda aur Amal (200+)
+    # Islami Aqeeda Aur Amal (200+)
     "Tawheed", "Shirk", "Risalat", "Akhirah", "Malaika", "Qadar", "Quran", "Sunnah", "Hadith", "Fiqh",
     "Ijmah", "Qiyas", "Ijtihad", "Zakat", "Salah", "Sawm", "Hajj", "Umrah", "Tahajjud", "Tasbih",
     "Tahmeed", "Takbir", "Tahlil", "Shahada", "Wudu", "Ghusl", "Tayammum", "Adhan", "Iqamah", "Jumuah",
@@ -106,85 +105,85 @@ islamic_words = [
     "Imam Abu Hanifa", "Imam Malik", "Imam Shafi", "Imam Ahmad", "Ibn Taymiyyah", "Al-Ghazali",
     "Ibn Sina", "Al-Farabi", "Al-Khwarizmi", "Ibn Khaldun", "Saladin", "Tipu Sultan", "Akbar",
     "Aurangzeb", "Muhammad Bin Qasim", "Mahmud Ghaznavi", "Al-Biruni", "Ibn Battuta", "Rumi",
-    "Al-Hallaj", "Rabia Basri", "Nizamuddin Auliya", "Moinuddin Chishti", "Baha-ud-din Zakariya",
-    "Shah Waliullah", "Sir Syed", "Iqbal", "Maulana Azad", "Hasan al-Banna", "Sayyid Qutb",
-    "Osama Bin Laden", "Malcolm X", "Muhammad Ali", "Zia-ul-Haq", "Erdogan", "Zayed", "Faisal",
+    "Al-Hallaj", "Rabia Basri", "Nizamuddin Auliya", "Moinuddin Chishti", "Baha-Ud-Din Zakariya",
+    "Shah Waliullah", "Sir Syed", "Iqbal", "Maulana Azad", "Hasan Al-Banna", "Sayyid Qutb",
+    "Osama Bin Laden", "Malcolm X", "Muhammad Ali", "Zia-Ul-Haq", "Erdogan", "Zayed", "Faisal",
 
-    # Islami Festivals aur Dates
-    "Eid-ul-Fitr", "Eid-ul-Adha", "Muharram", "Ashura", "Shab-e-Barat", "Laylatul Qadr",
-    "Shab-e-Miraj", "Shab-e-Qadr", "Ramadan", "Dhul Hijjah", "Rajab", "Jumada al-Awwal",
-    "Safar", "Rabi ul-Awwal", "12 Rabi ul-Awwal", "27 Rajab", "15 Shaban", "10 Muharram",
+    # Islami Festivals Aur Dates
+    "Eid-Ul-Fitr", "Eid-Ul-Adha", "Muharram", "Ashura", "Shab-E-Barat", "Laylatul Qadr",
+    "Shab-E-Miraj", "Shab-E-Qadr", "Ramadan", "Dhul Hijjah", "Rajab", "Jumada Al-Awwal",
+    "Safar", "Rabi Ul-Awwal", "12 Rabi Ul-Awwal", "27 Rajab", "15 Shaban", "10 Muharram",
 
-    # Islami Science aur Kalaa
+    # Islami Science Aur Kalaa
     "Algebra", "Algorithm", "Alchemy", "Astrolabe", "Quadrant", "Camera Obscura", "Surgery",
     "Pharmacology", "Optics", "Trigonometry", "Avicenna", "Averroes", "Al-Zahrawi", "Al-Kindi",
-    "Al-Razi", "Ibn al-Haytham", "Al-Jazari", "Al-Khwarizmi", "Al-Battani", "Al-Idrisi",
+    "Al-Razi", "Ibn Al-Haytham", "Al-Jazari", "Al-Khwarizmi", "Al-Battani", "Al-Idrisi",
 
     # Islamic Philosophical Terms
-    "Falsafa", "Hikmah", "Haqqiqah", "Maqasid al-Shariah", "Ibtida", "Nusus al-Hikmah", "Ma'rifah", 
-    "Tajassus al-Haqiqah", "Tasawwuf", "Ishraq", "Mawrid al-Hikmah", "Ruhaniyat", "Wujud", "Sirr", 
-    "Takhayul", "Tasawwur", "Insan al-Kamil", "Aql", "Fitrah", "Kalam", "Mushahada", "Ijtihad al-Falsafa", 
-    "Miftah al-Hikmah", "Suluk al-Ruh", "Nafs al-Ammarah", "Nafs al-Lawwama", "Nafs al-Mutma'inna", 
-    "Jamal al-Tafakkur", "Sirr al-Asrar", "Qawl al-Haqq", "Miftah al-Aql", "Asrar al-Tawhid", "Usul al-Falsafa", 
-    "Dawlat al-Hikmah", "Ilm al-Mantiq", "Riyazat al-Nafs", "Ihsan al-Fikr", "Miftah al-Haqq", "Bayan al-Ma'ani", 
-    "Tafakkur al-Hayat", "Zawiyat al-Ilm", "Tadabbur", "Ulum al-Kalam", "Maqam al-Tasawwuf", "Suluk al-Qalb", 
-    "Ihsan al-Ruh", "Falsafat al-Mutaqaddim", "Manhaj al-Hikmah", "Shajarah al-Ilm", "Silsilat al-Tafakkur",
+    "Falsafa", "Hikmah", "Haqqiqah", "Maqasid Al-Shariah", "Ibtida", "Nusus Al-Hikmah", "Ma'rifah", 
+    "Tajassus Al-Haqiqah", "Tasawwuf", "Ishraq", "Mawrid Al-Hikmah", "Ruhaniyat", "Wujud", "Sirr", 
+    "Takhayul", "Tasawwur", "Insan Al-Kamil", "Aql", "Fitrah", "Kalam", "Mushahada", "Ijtihad Al-Falsafa", 
+    "Miftah Al-Hikmah", "Suluk Al-Ruh", "Nafs Al-Ammarah", "Nafs Al-Lawwama", "Nafs Al-Mutma'inna", 
+    "Jamal Al-Tafakkur", "Sirr Al-Asrar", "Qawl Al-Haqq", "Miftah Al-Aql", "Asrar Al-Tawhid", "Usul Al-Falsafa", 
+    "Dawlat Al-Hikmah", "Ilm Al-Mantiq", "Riyazat Al-Nafs", "Ihsan Al-Fikr", "Miftah Al-Haqq", "Bayan Al-Ma'ani", 
+    "Tafakkur Al-Hayat", "Zawiyat Al-Ilm", "Tadabbur", "Ulum Al-Kalam", "Maqam Al-Tasawwuf", "Suluk Al-Qalb", 
+    "Ihsan Al-Ruh", "Falsafat Al-Mutaqaddim", "Manhaj Al-Hikmah", "Shajarah Al-Ilm", "Silsilat Al-Tafakkur",
 
     # Sufi Terminology
     "Ishq", "Yaqin", "Wajd", "Majzoob", "Mureed", "Murshid", "Dervish", "Fana", "Baqa", "Sohbet", "Qalandar", 
-    "Zikr-e-Qalbi", "Khanqah", "Ruhani Safar", "Sama", "Maqam al-Ishq", "Nazar-e-Sufiyana", "Riyazat al-Ruh", 
-    "Silsilat al-Wahdat", "Wahdat al-Wujud", "Mujahadat al-Ruh", "Isharat al-Tariqah", "Ruhaniyya", "Ishq-e-Haqiqi", 
-    "Nizam al-Tariqah", "Tajalli", "Fana fi al-Hubb", "Baqa ba'd al-Fana", "Majlis al-Sufi", "Sama al-Ma'arif", 
-    "Ruhani Irtiqa", "Maqam al-Sabr", "Ruhani Zauq", "Ishq al-Majazi", "Ishq al-Rububiyyah", "Zikr al-Mashreq", 
-    "Silsilat al-Mahabba", "Nishan al-Tariqah", "Saqt al-Dil", "Ruhani Musahaba", "Irtifa al-Ruh", "Sarmaya al-Tajalli", 
-    "Sirru al-Qalb", "Tariqat al-Fana", "Suluk al-Mahabba", "Jawhar al-Ruh", "Shuhud", "Hunar al-Zikr", "Fayz al-Sufi", "Nawa al-Tariqah",
+    "Zikr-E-Qalbi", "Khanqah", "Ruhani Safar", "Sama", "Maqam Al-Ishq", "Nazar-E-Sufiyana", "Riyazat Al-Ruh", 
+    "Silsilat Al-Wahdat", "Wahdat Al-Wujud", "Mujahadat Al-Ruh", "Isharat Al-Tariqah", "Ruhaniyya", "Ishq-E-Haqiqi", 
+    "Nizam Al-Tariqah", "Tajalli", "Fana Fi Al-Hubb", "Baqa Ba'd Al-Fana", "Majlis Al-Sufi", "Sama Al-Ma'arif", 
+    "Ruhani Irtiqa", "Maqam Al-Sabr", "Ruhani Zauq", "Ishq Al-Majazi", "Ishq Al-Rububiyyah", "Zikr Al-Mashreq", 
+    "Silsilat Al-Mahabba", "Nishan Al-Tariqah", "Saqt Al-Dil", "Ruhani Musahaba", "Irtifa Al-Ruh", "Sarmaya Al-Tajalli", 
+    "Sirru Al-Qalb", "Tariqat Al-Fana", "Suluk Al-Mahabba", "Jawhar Al-Ruh", "Shuhud", "Hunar Al-Zikr", "Fayz Al-Sufi", "Nawa Al-Tariqah",
 
-    # Islamic Inventions and Scholars in Science
-    "Ibn al-Nafis", "Ibn al-Baitar", "Ibn Zuhr", "Al-Khazini", "Qutb al-Din al-Shirazi", "Ibn al-Razzaz al-Jurjani", "Ibn al-Wardi", 
-    "Ibn Fadlan", "Ibn Hibban", "Al-Suli", "Al-Birjandi", "Al-Kashi", "Ibn al-Shatir", "Al-Mas'udi", "Ibn Hazm", "Ibn Qutaybah", 
-    "Al-Kharaqani", "Al-Tabari", "Ibn Kathir", "Al-Baghawi", "Ibn al-Jawzi", "Ibn Hajar al-Asqalani", "Ibn al-Subki", "Ibn al-Salah", 
-    "Al-Majriti", "Al-Farghani", "Ibn Sab'in", "Ibn Bassam", "Al-Dimashqi", "Nasir al-Din al-Tusi", "Ibn al-Nadim", "Al-Qazwini", 
-    "Ibn al-Rumaythah", "Ibn al-Humam", "Al-Safadi", "Ibn Abi Usaybi'a", "Ibn al-Quff", "Ibn Makula", "Al-Baghdadi", "Ibn al-Rashid", 
-    "Ibn Abi Zar", "Al-Nasawi", "Ibn al-Tib", "Ibn al-Jurayj", "Ibn al-Adim", "Al-Muqaddasi", "Ibn al-Wazir", "Ibn al-Nu'man",
+    # Islamic Inventions And Scholars In Science
+    "Ibn Al-Nafis", "Ibn Al-Baitar", "Ibn Zuhr", "Al-Khazini", "Qutb Al-Din Al-Shirazi", "Ibn Al-Razzaz Al-Jurjani", "Ibn Al-Wardi", 
+    "Ibn Fadlan", "Ibn Hibban", "Al-Suli", "Al-Birjandi", "Al-Kashi", "Ibn Al-Shatir", "Al-Mas'udi", "Ibn Hazm", "Ibn Qutaybah", 
+    "Al-Kharaqani", "Al-Tabari", "Ibn Kathir", "Al-Baghawi", "Ibn Al-Jawzi", "Ibn Hajar Al-Asqalani", "Ibn Al-Subki", "Ibn Al-Salah", 
+    "Al-Majriti", "Al-Farghani", "Ibn Sab'in", "Ibn Bassam", "Al-Dimashqi", "Nasir Al-Din Al-Tusi", "Ibn Al-Nadim", "Al-Qazwini", 
+    "Ibn Al-Rumaythah", "Ibn Al-Humam", "Al-Safadi", "Ibn Abi Usaybi'a", "Ibn Al-Quff", "Ibn Makula", "Al-Baghdadi", "Ibn Al-Rashid", 
+    "Ibn Abi Zar", "Al-Nasawi", "Ibn Al-Tib", "Ibn Al-Jurayj", "Ibn Al-Adim", "Al-Muqaddasi", "Ibn Al-Wazir", "Ibn Al-Nu'man",
 
     # Islamic Architectural Landmarks
-    "Dome of the Rock", "Blue Mosque", "Suleymaniye Mosque", "Al-Qarawiyyin Mosque", "Nasir al-Mulk Mosque", "Shalimar Gardens", 
+    "Dome Of The Rock", "Blue Mosque", "Suleymaniye Mosque", "Al-Qarawiyyin Mosque", "Nasir Al-Mulk Mosque", "Shalimar Gardens", 
     "Faisal Mosque", "Golestan Palace", "Topkapi Palace", "Red Fort", "Humayun's Tomb", "Shalimar Bagh", "Badshahi Mosque", 
-    "Jama Masjid of Agra", "Mehmed Paša Sokolović Bridge", "Rumi's Mausoleum", "Alaeddin Mosque", "Ulu Camii", "Sultan Qaboos Grand Mosque", 
-    "Sheikh Zayed Grand Mosque", "Baiturrahman Grand Mosque", "Masjid Raya Bandung", "Great Mosque of Xi'an", "Sultan Mosque (Singapore)", 
-    "Masjid Sultan (Singapore)", "Istiqlal Mosque", "Moti Masjid", "Jama Mosque of Herat", "Registan Square", "Gur-e-Amir", "Bibi-Khanym Mosque", 
-    "Masjid Jameh of Isfahan", "Vakil Mosque", "Shah Cheragh", "Masjid al-Taqwa", "Masjid Qiblatain", "Hassan II Mosque", "Koutoubia Mosque", 
-    "Great Mosque of Kairouan", "Great Mosque of Sousse", "Qasr al-Hayr al-Sharqi", "Saladin Citadel", "Citadel of Aleppo", "Madrasa of Sultan Hassan", 
-    "Medina Fort", "Minaret of Jam", "Qusayr Amra", "Ribat of Monastir", "Qal'at al-Bahrain", "Citadel of Qaitbay",
+    "Jama Masjid Of Agra", "Mehmed Paša Sokolović Bridge", "Rumi's Mausoleum", "Alaeddin Mosque", "Ulu Camii", "Sultan Qaboos Grand Mosque", 
+    "Sheikh Zayed Grand Mosque", "Baiturrahman Grand Mosque", "Masjid Raya Bandung", "Great Mosque Of Xi'an", "Sultan Mosque (Singapore)", 
+    "Masjid Sultan (Singapore)", "Istiqlal Mosque", "Moti Masjid", "Jama Mosque Of Herat", "Registan Square", "Gur-E-Amir", "Bibi-Khanym Mosque", 
+    "Masjid Jameh Of Isfahan", "Vakil Mosque", "Shah Cheragh", "Masjid Al-Taqwa", "Masjid Qiblatain", "Hassan Ii Mosque", "Koutoubia Mosque", 
+    "Great Mosque Of Kairouan", "Great Mosque Of Sousse", "Qasr Al-Hayr Al-Sharqi", "Saladin Citadel", "Citadel Of Aleppo", "Madrasa Of Sultan Hassan", 
+    "Medina Fort", "Minaret Of Jam", "Qusayr Amra", "Ribat Of Monastir", "Qal'at Al-Bahrain", "Citadel Of Qaitbay",
 
-    # Islamic Poetic and Literary Terms
+    # Islamic Poetic And Literary Terms
     "Ghazal", "Qasida", "Mathnawi", "Saj'", "Muwashshah", "Zajal", "Rubaiyat", "Naat", "Manqabat", "Marsiya", "Takhmis", "Diwan", "Safar Nama", 
     "Siyar", "Qisas", "Sirat", "Tazkira", "Khamsa", "Rasa'il", "Mukhtasar", "Tarjuma", "Maqama", "Silsila", "Bait", "Misra", "Qafiyah", "Wazn", 
-    "Bahr", "Radeef", "Tawil", "Takhmis-e-Qasidah", "Hikam", "Sufi Kalam", "Ishq Nama", "Divan-e-Rumi", "Nazm", "Sukhan", "Mushaira", "Adab", 
+    "Bahr", "Radeef", "Tawil", "Takhmis-E-Qasidah", "Hikam", "Sufi Kalam", "Ishq Nama", "Divan-E-Rumi", "Nazm", "Sukhan", "Mushaira", "Adab", 
     "Murakkab", "Qissah", "Dastan", "Ruba'i", "Maqsud", "Ishaarat", "Manzum", "Ghazalnama", "Sarguzasht", "Kissa", "Shairana",
 
-    # Islamic Historical Regions and Cities
+    # Islamic Historical Regions And Cities
     "Fes", "Marrakesh", "Rabat", "Agadir", "Tunis", "Kairouan", "Sousse", "Tripoli", "Seville", "Toledo", "Fustat", "Hijaz", "Tihamah", 
     "Najd", "Asir", "Baluchistan", "Sindh", "Punjab", "Transoxiana", "Khwarezm", "Fergana", "Merv", "Bukhara", "Samarkand", "Herat", "Balkh", 
     "Kandahar", "Mashhad", "Isfahan", "Tabriz", "Shiraz", "Baku", "Ankara", "Izmir", "Antalya", "Agra", "Lucknow", "Hyderabad", "Bhopal", 
     "Aurangabad", "Riyadh", "Dammam", "Doha", "Manama", "Muscat", "Kuwait City", "Amman", "Ramallah",
 
-    # Modern Islamic Thinkers and Leaders
+    # Modern Islamic Thinkers And Leaders
     "Tariq Ramadan", "Hamza Yusuf", "Yasir Qadhi", "Omar Suleiman", "Shabir Ally", "Amina Wadud", "Dalia Mogahed", "Imran N. Hosein", 
     "Tariq Jameel", "Nouman Ali Khan", "Zakir Naik", "Irshad Manji", "Reza Aslan", "Ayaan Hirsi Ali", "Abdulaziz Sachedina", 
     "Seyyed Hossein Nasr", "Fazlur Rahman", "Ali Gomaa", "Ahmed Deedat", "Bilal Philips", "Yvonne Ridley", "Naser Makarem Shirazi", 
-    "Ali al-Qaradaghi", "Mohammed Arkoun", "Abdul Hakim Murad", "Khaled Abou El Fadl", "Zainab Salbi", "Aref Ali Nayed", "Nabeel Qureshi", 
-    "Ebrahim Kalin", "Amr Khaled", "Tariq Anwar", "Mahmoud Abbas", "Rashid al-Ghannushi", "Mustafa Akyol", "M. Fethullah Gülen", "Süleyman Ateş", 
-    "Tawfiq al-Hakim", "Radwan Ziadeh", "Sami Yusuf", "Mahmoud Darwish", "Ibrahim Ozdemir", "Jamal al-Banna", "Kamal al-Fadl", "Rachid Ghannouchi", 
-    "Hafiz Omer", "Sultan Al Qassemi", "Abdullah bin Bayyah", "Imran Khan", "Tawakkol Karman",
+    "Ali Al-Qaradaghi", "Mohammed Arkoun", "Abdul Hakim Murad", "Khaled Abou El Fadl", "Zainab Salbi", "Aref Ali Nayed", "Nabeel Qureshi", 
+    "Ebrahim Kalin", "Amr Khaled", "Tariq Anwar", "Mahmoud Abbas", "Rashid Al-Ghannushi", "Mustafa Akyol", "M. Fethullah Gülen", "Süleyman Ateş", 
+    "Tawfiq Al-Hakim", "Radwan Ziadeh", "Sami Yusuf", "Mahmoud Darwish", "Ibrahim Ozdemir", "Jamal Al-Banna", "Kamal Al-Fadl", "Rachid Ghannouchi", 
+    "Hafiz Omer", "Sultan Al Qassemi", "Abdullah Bin Bayyah", "Imran Khan", "Tawakkol Karman",
 
-    # Additional Islamic Concepts and Rituals
-    "Sadaqah Jariyah", "I'tikaf", "Sunnah Rawatib", "Janazah", "Dua al-Qunoot", "Halaqah", "Mawlid", "Tadabbur al-Quran", "Hikmah al-Quran", 
-    "Tafsir", "Tajweed", "Qira'at", "Sajdah Tilawat", "Niyyah", "Jalsah", "Zikr-e-Sabah", "Zikr-e-Masaa", "Qunut Nazilah", "Sadaqat al-Fitr", 
-    "Umrah al-Qiran", "Hajj Tamattu", "Hajj Ifrad", "Hajj Qiran", "Rukn", "Arkan al-Islam", "Arkan al-Iman", "Mas'uliyyat", "Shahadatayn", 
-    "Fidya", "Kaffarah", "Hiba", "Fadl", "Barakah", "Tawassul", "Mizan al-Akhlaq", "Sabil", "Sirat al-Mustaqim", "Du'a al-Hajat", "Du'a al-Istikhara", 
-    "Du'a al-Mashlaha", "Du'a al-Shifa", "Du'a al-Karim", "Du'a al-Tawbah", "Du'a al-Jama'ah", "Qiyam al-Duha", "Duha", "Istiqama", "Tawbah al-Qalbiya", 
-    "Ibadat al-Mutlaq", "Du'a al-Rizq",
+    # Additional Islamic Concepts And Rituals
+    "Sadaqah Jariyah", "I'tikaf", "Sunnah Rawatib", "Janazah", "Dua Al-Qunoot", "Halaqah", "Mawlid", "Tadabbur Al-Quran", "Hikmah Al-Quran", 
+    "Tafsir", "Tajweed", "Qira'at", "Sajdah Tilawat", "Niyyah", "Jalsah", "Zikr-E-Sabah", "Zikr-E-Masaa", "Qunut Nazilah", "Sadaqat Al-Fitr", 
+    "Umrah Al-Qiran", "Hajj Tamattu", "Hajj Ifrad", "Hajj Qiran", "Rukn", "Arkan Al-Islam", "Arkan Al-Iman", "Mas'uliyyat", "Shahadatayn", 
+    "Fidya", "Kaffarah", "Hiba", "Fadl", "Barakah", "Tawassul", "Mizan Al-Akhlaq", "Sabil", "Sirat Al-Mustaqim", "Du'a Al-Hajat", "Du'a Al-Istikhara", 
+    "Du'a Al-Mashlaha", "Du'a Al-Shifa", "Du'a Al-Karim", "Du'a Al-Tawbah", "Du'a Al-Jama'ah", "Qiyam Al-Duha", "Duha", "Istiqama", "Tawbah Al-Qalbiya", 
+    "Ibadat Al-Mutlaq", "Du'a Al-Rizq",
 
     # Islamic Cultural Terms
     "Islamic Calligraphy", "Tazhib", "Zellij", "Arabesque", "Geometric Pattern", "Muqarnas", "Kufic Calligraphy", "Thuluth Script", "Naskh Script", 
@@ -192,168 +191,168 @@ islamic_words = [
     "Carpet Weaving", "Tilework", "Ceramic Art", "Mughal Miniature", "Islamic Fashion", "Hijab Fashion", "Thobe", "Abaya", "Kandura", "Sufi Music", 
     "Dervish Dance", "Qasida Recitation", "Sama Ceremony", "Ikat Weaving", "Mosaic Tiling", "Ornamental Ironwork", "Wood Carving", "Islamic Garden", 
     "Waqf Architecture", "Khanqah Architecture", "Ramadan Iftar", "Suhur Tradition", "Henna Night", "Iftar Gathering", "Islamic Calligraphic Poetry", 
-    "Oud Music", "Dabke Dance", "Islamic Tile Mural", "Frescoes of Islamic Heritage", "Mamluk Ornamentation", "Ottoman Textile",
+    "Oud Music", "Dabke Dance", "Islamic Tile Mural", "Frescoes Of Islamic Heritage", "Mamluk Ornamentation", "Ottoman Textile",
 
-    # Islamic Mystical Experiences and Terms
-    "Wahdat al-Sifat", "Fana Fi Allah", "Ishq-e-Rasool", "Qurbani al-Ruhani", "Lata'if-e-Sitta", "Sohbet-e-Sufi", "Muraqaba", "Kashf", "Hal", 
-    "Maqam al-Mahabba", "Maqam al-Tawakkul", "Sukoon al-Ruh", "Fazl-e-Ilahi", "Shuhud al-Haqiqi", "Isharat al-Ruhani", "Sama' al-Qalb", 
-    "Tasawwuf-e-Khas", "Ruhani Safar-e-Tamheed", "Nisbat", "Zuhd al-Dunya", "Khudi", "Nooraniyyat", "Tajalli al-Haqq", "Sirr-e-Wujud", "Zikr al-Tawhid", 
-    "Sama al-Awliya", "Mushahadat-e-Ilahi", "Ruhani Tajdid", "Lata'if-e-Rahmah", "Nafs al-Radiyah", "Suluk al-Tazkiyah", "Qalb-e-Munir", "Ruhani Urooj", 
-    "Ishq-e-Khuda", "Ruhani Shukr", "Ibtida-e-Ruhani", "Wujub", "Tawajjud al-Qalb", "Isharat al-Asrar", "Qalb-e-Dilbar", "Zauq-e-Hayat", "Wajd al-Ishq", 
-    "Mushkilaat al-Nafs", "Ibtida-e-Tasawwuf", "Ruhani Safar-e-Ishq", "Suhbat-e-Wahdat", "Tajalli al-Ruh", "Sirr al-Mahd", "Ruhani Iltija", "Sama al-Ilahi",
+    # Islamic Mystical Experiences And Terms
+    "Wahdat Al-Sifat", "Fana Fi Allah", "Ishq-E-Rasool", "Qurbani Al-Ruhani", "Lata'if-E-Sitta", "Sohbet-E-Sufi", "Muraqaba", "Kashf", "Hal", 
+    "Maqam Al-Mahabba", "Maqam Al-Tawakkul", "Sukoon Al-Ruh", "Fazl-E-Ilahi", "Shuhud Al-Haqiqi", "Isharat Al-Ruhani", "Sama' Al-Qalb", 
+    "Tasawwuf-E-Khas", "Ruhani Safar-E-Tamheed", "Nisbat", "Zuhd Al-Dunya", "Khudi", "Nooraniyyat", "Tajalli Al-Haqq", "Sirr-E-Wujud", "Zikr Al-Tawhid", 
+    "Sama Al-Awliya", "Mushahadat-E-Ilahi", "Ruhani Tajdid", "Lata'if-E-Rahmah", "Nafs Al-Radiyah", "Suluk Al-Tazkiyah", "Qalb-E-Munir", "Ruhani Urooj", 
+    "Ishq-E-Khuda", "Ruhani Shukr", "Ibtida-E-Ruhani", "Wujub", "Tawajjud Al-Qalb", "Isharat Al-Asrar", "Qalb-E-Dilbar", "Zauq-E-Hayat", "Wajd Al-Ishq", 
+    "Mushkilaat Al-Nafs", "Ibtida-E-Tasawwuf", "Ruhani Safar-E-Ishq", "Suhbat-E-Wahdat", "Tajalli Al-Ruh", "Sirr Al-Mahd", "Ruhani Iltija", "Sama Al-Ilahi",
 
 
-    # Additional Sufi Saints and Mystics (50 items)
+    # Additional Sufi Saints And Mystics (50 Items)
     "Junaid Baghdadi", "Abdul Qadir Jilani", "Shah Nematullah", "Pir Meher Ali Shah", "Khwaja Qutbuddin Bakhtiar Kaki",
-    "Shah Inayat Qadiri", "Sayyid Ali Hamadani", "Makhdoom Ali Mahimi", "Pir Pagara", "Sultan-ul-Arifeen",
-    "Khwaja Kamal-ud-Din", "Pir Shahabuddin", "Haji Abdul Wahab", "Pir Roshan", "Baba Qaim Sain",
+    "Shah Inayat Qadiri", "Sayyid Ali Hamadani", "Makhdoom Ali Mahimi", "Pir Pagara", "Sultan-Ul-Arifeen",
+    "Khwaja Kamal-Ud-Din", "Pir Shahabuddin", "Haji Abdul Wahab", "Pir Roshan", "Baba Qaim Sain",
     "Sultan Muhammad Qureshi", "Pir Khushal", "Sayed Ahmad Razavi", "Khwaja Arif Qadri", "Pir Noor Muhammad",
-    "Pir Mast Ali Shah", "Pir Shams-ud-Din", "Khwaja Habib-ur-Rahman", "Sayed Ibrahim", "Pir Fazal Ali",
+    "Pir Mast Ali Shah", "Pir Shams-Ud-Din", "Khwaja Habib-Ur-Rahman", "Sayed Ibrahim", "Pir Fazal Ali",
     "Lal Shahbaz Qalandar", "Pir Sultan", "Shams Tabrizi", "Shah Abdul Latif Bhittai", "Pir Muhammad Chishti",
     "Khwaja Shamsuddin", "Pir Ali Tirmizi", "Pir Aslam", "Sayed Jamaluddin", "Khwaja Nizamuddin Hussain",
-    "Pir Rahimuddin", "Sultan Rukn-ud-Din", "Hazrat Shah Kamal", "Pir Abdullah", "Mawlana Shamsuddin",
-    "Pir Fazl-e-Haq", "Khwaja Abdul Hamid", "Pir Hamid Raza", "Sayed Rafiuddin", "Pir Yusuf",
+    "Pir Rahimuddin", "Sultan Rukn-Ud-Din", "Hazrat Shah Kamal", "Pir Abdullah", "Mawlana Shamsuddin",
+    "Pir Fazl-E-Haq", "Khwaja Abdul Hamid", "Pir Hamid Raza", "Sayed Rafiuddin", "Pir Yusuf",
     "Khwaja Abdullah Shah", "Pir Abdul Salam",
 
-    # Famous Islamic Literary Works and Manuscripts (50 items)
-    "Al-Muwatta", "Sahih al-Bukhari", "Sahih Muslim", "Al-Muwafaqat", "Ihya Ulum al-Din",
-    "Futuh al-Ghaib", "Al-Risala", "Tafsir al-Jalalayn", "Tafsir Ibn Kathir", "Al-Kitab al-Muqaddas",
-    "Al-Aqidah al-Tahawiyyah", "Rasa'il Ikhwan al-Safa", "Fusus al-Hikam", "Madarik al-Tanzil", "Mu'jam al-Buldan",
-    "Al-Muqaddimah", "Sirat Rasul Allah", "Al-Risala al-Qushayriyya", "Tabaqat al-Umam", "Al-Fihrist",
-    "The Meadows of Gold", "Tarikh al-Tabari", "Al-Kamil fi al-Tarikh", "Risala Qushayriyya", "Majma' al-Fawaid",
-    "Nukat al-I'tiqad", "Muntakhab al-Tafsir", "Dala'il al-Nubuwwah", "Ibn Hazm's Tauq al-Imaan", "Tabaqat al-Mutazawwijin",
-    "Riyad-us-Saliheen", "Bulugh al-Maram", "Fath al-Bari", "Zad al-Ma'ad", "Al-Tamhid",
-    "Al-Hikam", "Ihya al-Suluk", "Mishkat al-Masabih", "Al-Adab al-Mufrad", "Al-Muwashshahat",
-    "Diwan-e-Meer", "Gulistan", "Bostan", "Masnavi-i Ma'navi", "Divan-e-Hafez",
-    "Shahnameh", "Siyar A'lam al-Nubala", "Al-Kashf al-Asrar", "Tuhfat al-Ahrar", "Firdaws al-Tahawwul",
+    # Famous Islamic Literary Works And Manuscripts (50 Items)
+    "Al-Muwatta", "Sahih Al-Bukhari", "Sahih Muslim", "Al-Muwafaqat", "Ihya Ulum Al-Din",
+    "Futuh Al-Ghaib", "Al-Risala", "Tafsir Al-Jalalayn", "Tafsir Ibn Kathir", "Al-Kitab Al-Muqaddas",
+    "Al-Aqidah Al-Tahawiyyah", "Rasa'il Ikhwan Al-Safa", "Fusus Al-Hikam", "Madarik Al-Tanzil", "Mu'jam Al-Buldan",
+    "Al-Muqaddimah", "Sirat Rasul Allah", "Al-Risala Al-Qushayriyya", "Tabaqat Al-Umam", "Al-Fihrist",
+    "The Meadows Of Gold", "Tarikh Al-Tabari", "Al-Kamil Fi Al-Tarikh", "Risala Qushayriyya", "Majma' Al-Fawaid",
+    "Nukat Al-I'tiqad", "Muntakhab Al-Tafsir", "Dala'il Al-Nubuwwah", "Ibn Hazm's Tauq Al-Imaan", "Tabaqat Al-Mutazawwijin",
+    "Riyad-Us-Saliheen", "Bulugh Al-Maram", "Fath Al-Bari", "Zad Al-Ma'ad", "Al-Tamhid",
+    "Al-Hikam", "Ihya Al-Suluk", "Mishkat Al-Masabih", "Al-Adab Al-Mufrad", "Al-Muwashshahat",
+    "Diwan-E-Meer", "Gulistan", "Bostan", "Masnavi-I Ma'navi", "Divan-E-Hafez",
+    "Shahnameh", "Siyar A'lam Al-Nubala", "Al-Kashf Al-Asrar", "Tuhfat Al-Ahrar", "Firdaws Al-Tahawwul",
 
-    # Islamic Architectural Structures and Complexes (Additional) (50 items)
-    "Sheikh Lotfollah Mosque", "Shah Mosque", "Gonbad-e Qabus", "Tomb of Shah Rukn-e-Alam", "Mausoleum of Khoja Ahmed Yasavi",
-    "Ghazni Minarets", "Jameh Mosque of Yazd", "Masjid al-Jami' of Qazvin", "Rohtas Fort", "Alamgiri Fort",
-    "Tughlaqabad Fort", "Golkonda Fort", "Agra Fort", "Masjid-e-Sultani, Qazvin", "Al-Aqmar Mosque",
-    "Mustansiriya Madrasa", "Sultan al-Rashid Mosque", "Khanqah-e-Mir", "Ribat of Tarim", "Qasr al-Banat",
-    "Timurid Madrasa of Herat", "Ulugh Beg Madrasa", "Tomb of Ahmed Sanjar", "Imam Reza Shrine", "Ganj Ali Khan Complex",
-    "Nishat Bagh", "Chashme Shahi", "Tomb of Jahangir", "Tomb of Akbar", "Tomb of Sultan Qutb al-Din",
-    "Herat Minaret", "Sufi Khanqah of Multan", "Qila Mubarak", "Chandni Chowk Mosque", "Jamia Mosque of Sialkot",
-    "Haji Ali Dargah", "Ranikot Fort", "Alamgir Mosque", "Khanate Palace of Bukhara", "Bibi Sahib Kothi",
-    "Mughal Sarai", "Tomb of Mirza Ghalib", "Sultan Pur Majar", "Jahanara Bagh", "Bibi Ka Maqbara",
-    "Mausoleum of Shah Waliullah", "Sultan Mahmud Mosque", "Rumi Cultural Center", "Minaret of Qibla", "Saffron Courtyard",
+    # Islamic Architectural Structures And Complexes (Additional) (50 Items)
+    "Sheikh Lotfollah Mosque", "Shah Mosque", "Gonbad-E Qabus", "Tomb Of Shah Rukn-E-Alam", "Mausoleum Of Khoja Ahmed Yasavi",
+    "Ghazni Minarets", "Jameh Mosque Of Yazd", "Masjid Al-Jami' Of Qazvin", "Rohtas Fort", "Alamgiri Fort",
+    "Tughlaqabad Fort", "Golkonda Fort", "Agra Fort", "Masjid-E-Sultani, Qazvin", "Al-Aqmar Mosque",
+    "Mustansiriya Madrasa", "Sultan Al-Rashid Mosque", "Khanqah-E-Mir", "Ribat Of Tarim", "Qasr Al-Banat",
+    "Timurid Madrasa Of Herat", "Ulugh Beg Madrasa", "Tomb Of Ahmed Sanjar", "Imam Reza Shrine", "Ganj Ali Khan Complex",
+    "Nishat Bagh", "Chashme Shahi", "Tomb Of Jahangir", "Tomb Of Akbar", "Tomb Of Sultan Qutb Al-Din",
+    "Herat Minaret", "Sufi Khanqah Of Multan", "Qila Mubarak", "Chandni Chowk Mosque", "Jamia Mosque Of Sialkot",
+    "Haji Ali Dargah", "Ranikot Fort", "Alamgir Mosque", "Khanate Palace Of Bukhara", "Bibi Sahib Kothi",
+    "Mughal Sarai", "Tomb Of Mirza Ghalib", "Sultan Pur Majar", "Jahanara Bagh", "Bibi Ka Maqbara",
+    "Mausoleum Of Shah Waliullah", "Sultan Mahmud Mosque", "Rumi Cultural Center", "Minaret Of Qibla", "Saffron Courtyard",
 
-    # Islamic Science and Technology Contributions (Additional) (50 items)
-    "Book of Optics", "Surgical Instruments Design", "Chemistry Distillation Techniques", "Astronomical Observatories", "Water Clock Innovations",
+    # Islamic Science And Technology Contributions (Additional) (50 Items)
+    "Book Of Optics", "Surgical Instruments Design", "Chemistry Distillation Techniques", "Astronomical Observatories", "Water Clock Innovations",
     "Astrolabe Construction", "Quadrant Development", "Arabic Numerals Transmission", "Herbal Medicine Catalogs", "Pharmacology Advances",
-    "Al-Razi’s Medical Texts", "Ibn Sina’s Canon of Medicine", "Geographical Mapping Techniques", "Cartographic Projections", "Ibn Battuta’s Travel Records",
+    "Al-Razi’s Medical Texts", "Ibn Sina’s Canon Of Medicine", "Geographical Mapping Techniques", "Cartographic Projections", "Ibn Battuta’s Travel Records",
     "Navigation Instruments", "Mechanical Automata", "Windmill Designs", "Soap Making Process", "Crankshaft Invention",
     "Astrological Tables", "Arabic Algebra", "Chemistry Laboratory Methods", "Advanced Irrigation Systems", "Water-Powered Mills",
-    "Medical Surgical Tools", "Philosophy of Medicine", "Medical Ethics in Islam", "Optical Lenses Development", "Scientific Method in Islamic Thought",
+    "Medical Surgical Tools", "Philosophy Of Medicine", "Medical Ethics In Islam", "Optical Lenses Development", "Scientific Method In Islamic Thought",
     "Geometric Theorems", "Trigonometric Identities", "Astronomical Instruments", "Al-Kindi’s Cryptanalysis", "Early Cryptography Techniques",
     "Animal Dissection Studies", "Plant Classification", "Astrogeology Concepts", "Mechanical Engineering Concepts", "Chemical Distillation Apparatus",
     "Surgical Anesthesia Techniques", "Metallurgy Advancements", "Mathematical Proofs", "Algorithm Development", "Early Calculus Concepts",
     "Optical Camera Obscura", "Solar Calendar Calculations", "Timekeeping Devices", "Hydraulic Engineering", "Architectural Geometry",
 
-    # Islamic Philosophical and Theological Concepts (Additional) (50 items)
-    "Haqiqat al-Wujud", "Sunnat al-Matin", "Insaniyyat al-Ilahi", "Fitra al-Rabbaniyya", "Mawrid al-Tanwir",
-    "Silsilat al-Istibsar", "Majaz al-Haqq", "Mawqif al-Tadabbur", "Falsafat al-Kasf", "Ma'arifat al-Mawjood",
-    "Ruhani Tajassus", "Isharat al-Haqiqa", "Sirat al-Falsafa", "Nubuwwat al-Batin", "Ilm al-Batin",
-    "Majd al-Aql", "Sarab al-Ilm", "Noor al-Ma'ani", "Hikmat al-Muta'aliyah", "Haqq al-Iradah",
-    "Asrar al-Mawjood", "Tafakkur al-Aql", "Insan al-Amin", "Falsafat al-Kawn", "Ma'rifat al-Asrar",
-    "Ibtida' al-Ma'ani", "Tamhid al-Ruhani", "Tawajjuh al-Qalb", "Ishraq al-Aql", "Dawlat al-Ma'rifah",
-    "Tafsir al-Ruh", "Qiyamat al-Fikr", "Wahdat al-Tanwir", "Riyad al-Falsafa", "Nubuwwat al-Qalb",
-    "Haqq al-Irshad", "Ma'rifat al-Kawn", "Isharaat al-Tasawwuf", "Mizan al-Falsafa", "Sirr al-Ma'rifah",
-    "Haqq al-Hikmah", "Noor al-Tadabbur", "Qalb al-Tajassus", "Miftah al-Nur", "Silsilat al-Tanwir",
-    "Iradat al-Aql", "Tawhid al-Mawjood",
+    # Islamic Philosophical And Theological Concepts (Additional) (50 Items)
+    "Haqiqat Al-Wujud", "Sunnat Al-Matin", "Insaniyyat Al-Ilahi", "Fitra Al-Rabbaniyya", "Mawrid Al-Tanwir",
+    "Silsilat Al-Istibsar", "Majaz Al-Haqq", "Mawqif Al-Tadabbur", "Falsafat Al-Kasf", "Ma'arifat Al-Mawjood",
+    "Ruhani Tajassus", "Isharat Al-Haqiqa", "Sirat Al-Falsafa", "Nubuwwat Al-Batin", "Ilm Al-Batin",
+    "Majd Al-Aql", "Sarab Al-Ilm", "Noor Al-Ma'ani", "Hikmat Al-Muta'aliyah", "Haqq Al-Iradah",
+    "Asrar Al-Mawjood", "Tafakkur Al-Aql", "Insan Al-Amin", "Falsafat Al-Kawn", "Ma'rifat Al-Asrar",
+    "Ibtida' Al-Ma'ani", "Tamhid Al-Ruhani", "Tawajjuh Al-Qalb", "Ishraq Al-Aql", "Dawlat Al-Ma'rifah",
+    "Tafsir Al-Ruh", "Qiyamat Al-Fikr", "Wahdat Al-Tanwir", "Riyad Al-Falsafa", "Nubuwwat Al-Qalb",
+    "Haqq Al-Irshad", "Ma'rifat Al-Kawn", "Isharaat Al-Tasawwuf", "Mizan Al-Falsafa", "Sirr Al-Ma'rifah",
+    "Haqq Al-Hikmah", "Noor Al-Tadabbur", "Qalb Al-Tajassus", "Miftah Al-Nur", "Silsilat Al-Tanwir",
+    "Iradat Al-Aql", "Tawhid Al-Mawjood",
 
-    # Islamic Jurisprudence and Legal Texts (Additional) (50 items)
-    "Kitab al-Umm", "Al-Muhadhdhab", "Bidayat al-Mujtahid", "Al-Mabsut", "Al-Rawdah al-Bahiyyah",
-    "Fath al-Qarib", "Al-Tanbih fi al-Fiqh", "Mukhtasar al-Quduri", "Al-Majmu'", "Nihayat al-Matlab",
-    "Sharh al-Sunnah", "Al-Iqna' fi Usul al-Fiqh", "Al-Muhit al-Farid", "Tuhfa al-Wahhabiyya", "Fath al-Mu'in",
-    "Al-Majd al-Fiqh", "Al-Muqaddimah fi al-Fiqh", "Radd al-Muhtar", "Al-Furuq", "Durr al-Mukhtar",
-    "Al-Targhib wal-Tarhib", "Fath al-Rahman", "Mukhtasar al-Sharh", "Al-Islah fi al-Fiqh", "Tuhfat al-Fuqaha",
-    "Al-Kafi fi al-Fiqh", "Minhaj al-Imam", "Al-Muhit al-Akbar", "Risalat al-Fiqh", "Al-Muntaqa fi al-Fiqh",
-    "Sharh al-Aqa'id", "Bahr al-Majhud", "Miftah al-Fiqh", "Nihayat al-Fiqh", "Al-Mustasfa",
-    "Furuq al-Adl", "Tanzih al-Qada", "Riyadh al-Haqq", "Umdat al-Fiqh", "Al-Majalis al-Fiqhiyya",
-    "Mukhtasar al-Ashraf", "Silsilat al-Mubtada", "Al-Qawa'id al-Fiqhiyya", "Al-Lubab fi al-Fiqh", "Tajdid al-Fiqh",
-    "Ijtihad al-Akbar", "Usul al-Fiqh al-Jadid", "Tajmi' al-Fiqh", "Mawsu'at al-Fiqh", "Al-Majma' al-Fiqhiyya",
+    # Islamic Jurisprudence And Legal Texts (Additional) (50 Items)
+    "Kitab Al-Umm", "Al-Muhadhdhab", "Bidayat Al-Mujtahid", "Al-Mabsut", "Al-Rawdah Al-Bahiyyah",
+    "Fath Al-Qarib", "Al-Tanbih Fi Al-Fiqh", "Mukhtasar Al-Quduri", "Al-Majmu'", "Nihayat Al-Matlab",
+    "Sharh Al-Sunnah", "Al-Iqna' Fi Usul Al-Fiqh", "Al-Muhit Al-Farid", "Tuhfa Al-Wahhabiyya", "Fath Al-Mu'in",
+    "Al-Majd Al-Fiqh", "Al-Muqaddimah Fi Al-Fiqh", "Radd Al-Muhtar", "Al-Furuq", "Durr Al-Mukhtar",
+    "Al-Targhib Wal-Tarhib", "Fath Al-Rahman", "Mukhtasar Al-Sharh", "Al-Islah Fi Al-Fiqh", "Tuhfat Al-Fuqaha",
+    "Al-Kafi Fi Al-Fiqh", "Minhaj Al-Imam", "Al-Muhit Al-Akbar", "Risalat Al-Fiqh", "Al-Muntaqa Fi Al-Fiqh",
+    "Sharh Al-Aqa'id", "Bahr Al-Majhud", "Miftah Al-Fiqh", "Nihayat Al-Fiqh", "Al-Mustasfa",
+    "Furuq Al-Adl", "Tanzih Al-Qada", "Riyadh Al-Haqq", "Umdat Al-Fiqh", "Al-Majalis Al-Fiqhiyya",
+    "Mukhtasar Al-Ashraf", "Silsilat Al-Mubtada", "Al-Qawa'id Al-Fiqhiyya", "Al-Lubab Fi Al-Fiqh", "Tajdid Al-Fiqh",
+    "Ijtihad Al-Akbar", "Usul Al-Fiqh Al-Jadid", "Tajmi' Al-Fiqh", "Mawsu'at Al-Fiqh", "Al-Majma' Al-Fiqhiyya",
 
-    # Islamic Dynasties, Empires, and Rulers (Additional) (50 items)
+    # Islamic Dynasties, Empires, And Rulers (Additional) (50 Items)
     "Umayyad Caliphate", "Abbasid Caliphate", "Fatimid Caliphate", "Seljuk Empire", "Mamluk Sultanate",
     "Ottoman Empire", "Safavid Dynasty", "Mughal Empire", "Almohad Caliphate", "Almoravid Dynasty",
     "Ayyubid Dynasty", "Ghaznavid Empire", "Khazar Khaganate", "Timurid Empire", "Bahri Mamluks",
-    "Burji Mamluks", "Sultanate of Rum", "Khanate of Bukhara", "Khanate of Khiva", "Sultanate of Delhi",
-    "Marinid Dynasty", "Zengid Dynasty", "Zirid Dynasty", "Rustamid Kingdom", "Ibadi Imamate of Oman",
-    "Samanid Empire", "Nasrid Kingdom of Granada", "Emirate of Córdoba", "Caliphate of Córdoba", "Ghuri Dynasty",
+    "Burji Mamluks", "Sultanate Of Rum", "Khanate Of Bukhara", "Khanate Of Khiva", "Sultanate Of Delhi",
+    "Marinid Dynasty", "Zengid Dynasty", "Zirid Dynasty", "Rustamid Kingdom", "Ibadi Imamate Of Oman",
+    "Samanid Empire", "Nasrid Kingdom Of Granada", "Emirate Of Córdoba", "Caliphate Of Córdoba", "Ghuri Dynasty",
     "Khilji Dynasty", "Tughlaq Dynasty", "Sayyid Dynasty", "Lodi Dynasty", "Qutb Shahi Dynasty",
     "Asaf Jahi Dynasty", "Bengal Sultanate", "Deccan Sultanates", "Adil Shahi Dynasty", "Nizam Shahi Dynasty",
-    "Barid Shahi Dynasty", "Bahmani Sultanate", "Rashidun Caliphate", "Umayyad Emirate of Córdoba", "Hafsid Dynasty",
+    "Barid Shahi Dynasty", "Bahmani Sultanate", "Rashidun Caliphate", "Umayyad Emirate Of Córdoba", "Hafsid Dynasty",
     "Zayyanid Kingdom", "Saffarid Dynasty", "Idrisid Dynasty", "Hammadid Dynasty", "Alaouite Dynasty",
 
-    # Islamic Festivals, Celebrations, and Observances (Additional) (50 items)
-    "Eid-e-Milad un-Nabi", "Eid-e-Siraj", "Eid-e-Zahra", "Jashn-e-Nowruz", "Eid-e-Fitr al-Saghir",
-    "Mehfil-e-Sama", "Mela-e-Urdu", "Iftar Nights", "Ramadan Bazaar", "Night of Qadr Recitals",
-    "Eid-e-Rukhsati", "Mawlid-ul-Nabi", "Shab-e-Suhar", "Eid-ul-Ghadeer", "Ziarat Day",
-    "Imam Ali Day", "Eid-e-Imam Hussain", "Commemoration of Karbala", "Eid-ul-Burhan", "Night of Forgiveness",
-    "Sufi Urs", "Jashn-e-Baharan", "Cultural Festival of Islam", "Ibadat Night", "Eid-e-Sajdah",
-    "Noor-ul-Layl", "Eid-ul-Rahmat", "Jashn-e-Falah", "Eid-ul-Nur", "Mela-e-Muhabbat",
-    "Eid-ul-Ma'soom", "Jashn-e-Tajalli", "Iftar Mela", "Ramadan Caravan", "Suhar Gathering",
-    "Eid-ul-Falak", "Mawlid Recital Night", "Eid-ul-Farooq", "Eid-ul-Hakim", "Sufi Dance Festival",
-    "Zikr Night", "Eid-ul-Ahsan", "Jashn-e-Wahdat", "Eid-e-Rasool", "Eid-ul-Quran",
-    "Mela-e-Dua", "Eid-ul-Hubb",
+    # Islamic Festivals, Celebrations, And Observances (Additional) (50 Items)
+    "Eid-E-Milad Un-Nabi", "Eid-E-Siraj", "Eid-E-Zahra", "Jashn-E-Nowruz", "Eid-E-Fitr Al-Saghir",
+    "Mehfil-E-Sama", "Mela-E-Urdu", "Iftar Nights", "Ramadan Bazaar", "Night Of Qadr Recitals",
+    "Eid-E-Rukhsati", "Mawlid-Ul-Nabi", "Shab-E-Suhar", "Eid-Ul-Ghadeer", "Ziarat Day",
+    "Imam Ali Day", "Eid-E-Imam Hussain", "Commemoration Of Karbala", "Eid-Ul-Burhan", "Night Of Forgiveness",
+    "Sufi Urs", "Jashn-E-Baharan", "Cultural Festival Of Islam", "Ibadat Night", "Eid-E-Sajdah",
+    "Noor-Ul-Layl", "Eid-Ul-Rahmat", "Jashn-E-Falah", "Eid-Ul-Nur", "Mela-E-Muhabbat",
+    "Eid-Ul-Ma'soom", "Jashn-E-Tajalli", "Iftar Mela", "Ramadan Caravan", "Suhar Gathering",
+    "Eid-Ul-Falak", "Mawlid Recital Night", "Eid-Ul-Farooq", "Eid-Ul-Hakim", "Sufi Dance Festival",
+    "Zikr Night", "Eid-Ul-Ahsan", "Jashn-E-Wahdat", "Eid-E-Rasool", "Eid-Ul-Quran",
+    "Mela-E-Dua", "Eid-Ul-Hubb",
 
-    # Rashidun Caliphs (4 items)
-    "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib",
+    # Rashidun Caliphs (4 Items)
+    "Abu Bakr As-Siddiq", "Umar Ibn Al-Khattab", "Uthman Ibn Affan", "Ali Ibn Abi Talib",
 
-    # Umayyad Caliphs (10 items)
-    "Muawiyah I", "Yazid I", "Marwan I", "Abd al-Malik ibn Marwan", "Al-Walid I",
-    "Sulayman ibn Abd al-Malik", "Umar II", "Yazid II", "Hisham ibn Abd al-Malik", "Abd al-Aziz ibn al-Walid",
+    # Umayyad Caliphs (10 Items)
+    "Muawiyah I", "Yazid I", "Marwan I", "Abd Al-Malik Ibn Marwan", "Al-Walid I",
+    "Sulayman Ibn Abd Al-Malik", "Umar Ii", "Yazid Ii", "Hisham Ibn Abd Al-Malik", "Abd Al-Aziz Ibn Al-Walid",
 
-    # Abbasid Caliphs (12 items)
-    "Al-Saffah", "Al-Mansur", "Al-Mahdi", "Al-Hadi", "Harun al-Rashid", "Al-Amin",
+    # Abbasid Caliphs (12 Items)
+    "Al-Saffah", "Al-Mansur", "Al-Mahdi", "Al-Hadi", "Harun Al-Rashid", "Al-Amin",
     "Al-Ma'mun", "Al-Mu'tasim", "Al-Wathiq", "Al-Mutawakkil", "Al-Muqtadir", "Al-Radi",
 
-    # Fatimid Caliphs/Imams (10 items)
-    "Al-Mahdi Billah", "Al-Qa'im bi-Amr Allah", "Al-Mansur bi-Nasr Allah", "Al-Muizz li-Din Allah",
-    "Al-Aziz Billah", "Al-Hakim bi-Amr Allah", "Ali az-Zahir", "Al-Mustansir Billah", "Al-Musta'li Billah", "Al-Amir bi-Ahkam Allah",
+    # Fatimid Caliphs/Imams (10 Items)
+    "Al-Mahdi Billah", "Al-Qa'im Bi-Amr Allah", "Al-Mansur Bi-Nasr Allah", "Al-Muizz Li-Din Allah",
+    "Al-Aziz Billah", "Al-Hakim Bi-Amr Allah", "Ali Az-Zahir", "Al-Mustansir Billah", "Al-Musta'li Billah", "Al-Amir Bi-Ahkam Allah",
 
-    # Seljuk Sultans (6 items)
+    # Seljuk Sultans (6 Items)
     "Tughril Beg", "Alp Arslan", "Malik Shah I", "Sanjar", "Berkyaruq", "Barkiyaruq",
 
-    # Mamluk Sultans (6 items)
-    "Qalawun", "Baibars", "Al-Ashraf Khalil", "An-Nasir Muhammad", "Al-Zahir Baybars", "Al-Nasir Muhammad ibn Qalawun",
+    # Mamluk Sultans (6 Items)
+    "Qalawun", "Baibars", "Al-Ashraf Khalil", "An-Nasir Muhammad", "Al-Zahir Baybars", "Al-Nasir Muhammad Ibn Qalawun",
 
-    # Ottoman Sultans (15 items)
-    "Osman I", "Orhan", "Murad I", "Bayezid I", "Mehmed I", "Murad II",
-    "Mehmed II", "Bayezid II", "Selim I", "Suleiman the Magnificent", "Selim II", "Murad III", "Mehmed III", "Ahmed I", "Mustafa I",
+    # Ottoman Sultans (15 Items)
+    "Osman I", "Orhan", "Murad I", "Bayezid I", "Mehmed I", "Murad Ii",
+    "Mehmed Ii", "Bayezid Ii", "Selim I", "Suleiman The Magnificent", "Selim Ii", "Murad Iii", "Mehmed Iii", "Ahmed I", "Mustafa I",
 
-    # Mughal Emperors (8 items)
-    "Babur", "Humayun", "Akbar", "Jahangir", "Shah Jahan", "Aurangzeb Alamgir", "Bahadur Shah I", "Bahadur Shah II",
+    # Mughal Emperors (8 Items)
+    "Babur", "Humayun", "Akbar", "Jahangir", "Shah Jahan", "Aurangzeb Alamgir", "Bahadur Shah I", "Bahadur Shah Ii",
 
-    # Other Notable Islamic Rulers (8 items)
-    "Timur", "Sher Shah Suri", "Mahmud of Ghazni", "Alauddin Khilji", "Muhammad bin Tughluq", "Tipu Sultan", "Afzal Khal", "Tamur-E-Lank",
+    # Other Notable Islamic Rulers (8 Items)
+    "Timur", "Sher Shah Suri", "Mahmud Of Ghazni", "Alauddin Khilji", "Muhammad Bin Tughluq", "Tipu Sultan", "Afzal Khal", "Tamur-E-Lank",
 
 
-    # Islamic Historical Battles and Military Campaigns (50 items)
-    "Jung-e-Qadisiyyah", "Jung-e-Yarmouk", "Jung-e-Badr", "Jung-e-Uhud", "Jung-e-Trench",
-    "Jung-e-Khyber", "Jung-e-Hunayn", "Jung-e-Tabuk", "Jung-e-Mutah", "Jung-e-Jalula",
-    "Jung-e-Nahrawan", "Jung-e-Siffin", "Jung-e-Jalalabad", "Jung-e-Khaybar", "Jung-e-Qadis",
-    "Jung-e-Hira", "Jung-e-Karbala", "Jung-e-Jamal", "Jung-e-Harrah", "Jung-e-Siffin-II",
-    "Jung-e-Mansura", "Jung-e-Zab", "Jung-e-Firaz", "Jung-e-Maysalun", "Jung-e-Al-Qadisiyyah",
-    "Jung-e-Harra", "Jung-e-Nahr", "Jung-e-Ayn-Jalut", "Jung-e-Al-Jumhuriya", "Jung-e-Maysan",
-    "Jung-e-Fahl", "Jung-e-Al-Rustamiyah", "Jung-e-Dhi-Qar", "Jung-e-Jalil", "Jung-e-Marj-al-Saffar",
-    "Jung-e-Zama", "Jung-e-Al-Bukayr", "Jung-e-Saqifah", "Jung-e-Dhul-Hijjah", "Jung-e-Anbar",
-    "Jung-e-Barda'in", "Jung-e-Az-Zubayr", "Jung-e-Mu'tah", "Jung-e-Khandaq", "Jung-e-Jund-al-Aqsa",
-    "Jung-e-Dhul-Aswad", "Jung-e-Al-Raqqah", "Jung-e-Samarra", "Jung-e-Tikrit", "Jung-e-Basra",
+    # Islamic Historical Battles And Military Campaigns (50 Items)
+    "Jung-E-Qadisiyyah", "Jung-E-Yarmouk", "Jung-E-Badr", "Jung-E-Uhud", "Jung-E-Trench",
+    "Jung-E-Khyber", "Jung-E-Hunayn", "Jung-E-Tabuk", "Jung-E-Mutah", "Jung-E-Jalula",
+    "Jung-E-Nahrawan", "Jung-E-Siffin", "Jung-E-Jalalabad", "Jung-E-Khaybar", "Jung-E-Qadis",
+    "Jung-E-Hira", "Jung-E-Karbala", "Jung-E-Jamal", "Jung-E-Harrah", "Jung-E-Siffin-Ii",
+    "Jung-E-Mansura", "Jung-E-Zab", "Jung-E-Firaz", "Jung-E-Maysalun", "Jung-E-Al-Qadisiyyah",
+    "Jung-E-Harra", "Jung-E-Nahr", "Jung-E-Ayn-Jalut", "Jung-E-Al-Jumhuriya", "Jung-E-Maysan",
+    "Jung-E-Fahl", "Jung-E-Al-Rustamiyah", "Jung-E-Dhi-Qar", "Jung-E-Jalil", "Jung-E-Marj-Al-Saffar",
+    "Jung-E-Zama", "Jung-E-Al-Bukayr", "Jung-E-Saqifah", "Jung-E-Dhul-Hijjah", "Jung-E-Anbar",
+    "Jung-E-Barda'in", "Jung-E-Az-Zubayr", "Jung-E-Mu'tah", "Jung-E-Khandaq", "Jung-E-Jund-Al-Aqsa",
+    "Jung-E-Dhul-Aswad", "Jung-E-Al-Raqqah", "Jung-E-Samarra", "Jung-E-Tikrit", "Jung-E-Basra",
 
-    # Islamic Poets and Literary Figures (50 items)
+    # Islamic Poets And Literary Figures (50 Items)
     "Rumi", "Hafez", "Saadi", "Attar", "Khwaja-Ghulam-Farid", "Bulleh-Shah", "Wali-Dakhani", "Fazal-Shah-Sayyad",
     "Jalaluddin-Rumi", "Mian-Muhammad-Bakhsh", "Mir-Taqi-Mir", "Ghalib", "Meerabai", "Wali-Muhammad-Wali",
     "Mirza-Ghalib", "Bahadur-Shah-Zafar", "Sultan-Bahu", "Shah-Abdul-Latif-Bhittai", "Ustad-Daman", "Mansur-Hallaj",
     "Khwaja-Mir-Dard", "Sarmad-Kashani", "Shah-Inayat-Qadiri", "Qatran-Tabrizi", "Nizami-Ganjavi", "Fuzuli",
-    "Jami", "Nasir-Khusraw", "Rumi-Saheb", "Seyrani", "Sarmad", "Ibn-Arabi", "Rashid-ad-Din",
-    "Al-Ma'arri", "Ibn-Zamrak", "Ibn-al-Farid", "Ibn-Quzman", "Abdul-Rahim-Khan-e-Khana", "Mir-Anis",
+    "Jami", "Nasir-Khusraw", "Rumi-Saheb", "Seyrani", "Sarmad", "Ibn-Arabi", "Rashid-Ad-Din",
+    "Al-Ma'arri", "Ibn-Zamrak", "Ibn-Al-Farid", "Ibn-Quzman", "Abdul-Rahim-Khan-E-Khana", "Mir-Anis",
     "Mirza-Khan-Daagh-Dehlvi", "Altaf-Hussain-Hali", "Sahir-Ludhianvi", "Faiz-Ahmed-Faiz", "Habib-Jalib",
     "Ahmad-Faraz", "Parveen-Shakir", "Meeraji", "Javed-Akhtar", "Kaifi-Azmi", "Khalil-Gibran",
 
-    # Islamic Scientific Instruments and Innovations (50 items)
+    # Islamic Scientific Instruments And Innovations (50 Items)
     "Astrolabe", "Armillary-Sphere", "Sundial", "Water-Clock", "Quadrant", "Sextant", "Celestial-Globe", "Hourglass",
     "Dioptra", "Alidade", "Abacus", "Arabic-Numerals", "Algebraic-Table", "Geometric-Compasses", "Surgical-Instruments",
     "Herbal-Catalog", "Al-Razi’s-Distillation", "Ibn-Sina’s-Pharmacopoeia", "Astronomical-Tables", "Observatory-Instruments",
@@ -364,17 +363,17 @@ islamic_words = [
     "Sun-Chart", "Star-Atlas", "Celestial-Sphere", "Parabolic-Mirror", "Optical-Prism", "Reflecting-Telescope",
     "Geodesic-Dome", "Epicyclic-Gear", "Water-Powered-Lifting",
 
-    # Notable Islamic Cities and Regions (Historical and Modern) (50 items)
+    # Notable Islamic Cities And Regions (Historical And Modern) (50 Items)
     "Baghdad", "Cairo", "Cordoba", "Kairouan", "Fez", "Samarkand", "Bukhara", "Isfahan", "Konya", "Damascus",
     "Istanbul", "Medina", "Makkah", "Jerusalem", "Basra", "Samarra", "Aleppo", "Tunis", "Rabat", "Fes",
     "Alexandria", "Tripoli", "Najaf", "Kufa", "Sana'a", "Marib", "Kandahar", "Herat", "Multan", "Lahore",
     "Hyderabad", "Agra", "Delhi", "Amritsar", "Faisalabad", "Karachi", "Quetta", "Peshawar", "Sialkot", "Rawalpindi",
     "Lucknow", "Jaipur", "Abu-Dhabi", "Doha", "Muscat", "Kuwait-City", "Manama", "Riyadh", "Dubai", "Sharjah",
 
-    # Islamic Economic Terms and Institutions (50 items)
-    "Zakat", "Sadaqah", "Waqf", "Bayt-al-Mal", "Mudarabah", "Musharakah", "Murabaha", "Ijara", "Salam", "Istisna",
+    # Islamic Economic Terms And Institutions (50 Items)
+    "Zakat", "Sadaqah", "Waqf", "Bayt-Al-Mal", "Mudarabah", "Musharakah", "Murabaha", "Ijara", "Salam", "Istisna",
     "Hawala", "Qirad", "Takaful", "Islamic-Banking", "Shariah-Compliance", "Halal-Certification", "Sukuk", "Ijarah",
-    "Ar-Riba", "Bai'-al-Inah", "Islamic-Finance", "Islamic-Insurance", "Islamic-Microfinance", "Profit-Sharing",
+    "Ar-Riba", "Bai'-Al-Inah", "Islamic-Finance", "Islamic-Insurance", "Islamic-Microfinance", "Profit-Sharing",
     "Risk-Sharing", "Interest-Free-Loans", "Islamic-Investment", "Qard-Hasan", "Islamic-Economic-Model", "Ethical-Investment",
     "Islamic-Capital-Market", "Financial-Inclusion", "Islamic-Wealth-Management", "Islamic-Financial-Instruments",
     "Islamic-Brokerage", "Sukuk-Bonds", "Islamic-Venture-Capital", "Islamic-Mutual-Funds", "Islamic-Derivatives",
@@ -382,146 +381,145 @@ islamic_words = [
     "Islamic-Economic-Justice", "Islamic-Social-Finance", "Islamic-Accounting", "Islamic-Financial-Regulation",
     "Islamic-Investment-Funds",
 
-    # Islamic Educational Institutions and Madrassas (50 items)
-    "Al-Qarawiyyin-University", "Al-Azhar-University", "Nizamiyya-Madrasa", "Madrasa-of-Ibn-Sina", "Madrasa-of-Al-Ghazali",
-    "Madrasa-of-Al-Farabi", "Sufism-Madrasa", "Madrasa-of-Baghdad", "Madrasa-of-Damascus", "Madrasa-of-Samarkand",
-    "Madrasa-of-Cairo", "Madrasa-of-Cordoba", "Madrasa-of-Isfahan", "Madrasa-of-Konya", "Madrasa-of-Herat",
-    "Madrasa-of-Bukhara", "Madrasa-of-Fes", "Madrasa-of-Marrakesh", "Madrasa-of-Tunis", "Madrasa-of-Aleppo",
-    "Madrasa-of-Nishapur", "Madrasa-of-Shiraz", "Madrasa-of-Balkh", "Madrasa-of-Sistan", "Madrasa-of-Khwarezm",
-    "Madrasa-of-Khorasan", "Madrasa-of-Tabriz", "Madrasa-of-Hamadan", "Madrasa-of-Yazd", "Madrasa-of-Maragheh",
-    "Madrasa-of-Ray", "Madrasa-of-Sari", "Madrasa-of-Isfahan-II", "Madrasa-of-Qazvin", "Madrasa-of-Tabriz-II",
-    "Madrasa-of-Shiraz-II", "Madrasa-of-Kerman", "Madrasa-of-Zahedan", "Madrasa-of-Bandar-Abbas", "Madrasa-of-Basra",
-    "Madrasa-of-Najaf", "Madrasa-of-Kufa", "Madrasa-of-Medina", "Madrasa-of-Makkah", "Madrasa-of-Jerusalem",
-    "Madrasa-of-Alexandria", "Madrasa-of-Istanbul", "Madrasa-of-Bursa", "Madrasa-of-Bursa-II", "Madrasa-of-Amman",
+    # Islamic Educational Institutions And Madrassas (50 Items)
+    "Al-Qarawiyyin-University", "Al-Azhar-University", "Nizamiyya-Madrasa", "Madrasa-Of-Ibn-Sina", "Madrasa-Of-Al-Ghazali",
+    "Madrasa-Of-Al-Farabi", "Sufism-Madrasa", "Madrasa-Of-Baghdad", "Madrasa-Of-Damascus", "Madrasa-Of-Samarkand",
+    "Madrasa-Of-Cairo", "Madrasa-Of-Cordoba", "Madrasa-Of-Isfahan", "Madrasa-Of-Konya", "Madrasa-Of-Herat",
+    "Madrasa-Of-Bukhara", "Madrasa-Of-Fes", "Madrasa-Of-Marrakesh", "Madrasa-Of-Tunis", "Madrasa-Of-Aleppo",
+    "Madrasa-Of-Nishapur", "Madrasa-Of-Shiraz", "Madrasa-Of-Balkh", "Madrasa-Of-Sistan", "Madrasa-Of-Khwarezm",
+    "Madrasa-Of-Khorasan", "Madrasa-Of-Tabriz", "Madrasa-Of-Hamadan", "Madrasa-Of-Yazd", "Madrasa-Of-Maragheh",
+    "Madrasa-Of-Ray", "Madrasa-Of-Sari", "Madrasa-Of-Isfahan-Ii", "Madrasa-Of-Qazvin", "Madrasa-Of-Tabriz-Ii",
+    "Madrasa-Of-Shiraz-Ii", "Madrasa-Of-Kerman", "Madrasa-Of-Zahedan", "Madrasa-Of-Bandar-Abbas", "Madrasa-Of-Basra",
+    "Madrasa-Of-Najaf", "Madrasa-Of-Kufa", "Madrasa-Of-Medina", "Madrasa-Of-Makkah", "Madrasa-Of-Jerusalem",
+    "Madrasa-Of-Alexandria", "Madrasa-Of-Istanbul", "Madrasa-Of-Bursa", "Madrasa-Of-Bursa-Ii", "Madrasa-Of-Amman",
 
-    # Islamic Cultural Festivals and Celebrations (50 items)
-    "Eid-ul-Fitr", "Eid-ul-Adha", "Ramadan-Iftar", "Laylat-al-Qadr", "Mawlid-al-Nabi", "Eid-e-Milad",
-    "Sufi-Urs", "Islamic-New-Year", "Eid-e-Shab-e-Barat", "Ramadan-Nights", "Shab-e-Barat", "Ramadan-Mela",
+    # Islamic Cultural Festivals And Celebrations (50 Items)
+    "Eid-Ul-Fitr", "Eid-Ul-Adha", "Ramadan-Iftar", "Laylat-Al-Qadr", "Mawlid-Al-Nabi", "Eid-E-Milad",
+    "Sufi-Urs", "Islamic-New-Year", "Eid-E-Shab-E-Barat", "Ramadan-Nights", "Shab-E-Barat", "Ramadan-Mela",
     "Iftar-Bazaar", "Eid-Mela", "Eid-Fair", "Ramadan-Festival", "Quran-Recitation-Festival", "Islamic-Music-Festival",
     "Islamic-Art-Festival", "Sufi-Music-Festival", "Eid-Carnival", "Iftar-Celebration", "Ramadan-Cultural-Night",
-    "Islamic-Heritage-Festival", "Eid-ul-Farooq", "Eid-e-Rukhsati", "Sufi-Dance-Festival", "Ramadan-Poetry-Night",
-    "Islamic-Storytelling-Festival", "Islamic-Heritage-Day", "Iftar-Party", "Ramadan-Lantern-Festival", "Eid-e-Rasool",
+    "Islamic-Heritage-Festival", "Eid-Ul-Farooq", "Eid-E-Rukhsati", "Sufi-Dance-Festival", "Ramadan-Poetry-Night",
+    "Islamic-Storytelling-Festival", "Islamic-Heritage-Day", "Iftar-Party", "Ramadan-Lantern-Festival", "Eid-E-Rasool",
     "Ramadan-Night-Market", "Islamic-Crafts-Fair", "Sufi-Whirling-Night", "Ramadan-Cultural-Fair", "Islamic-Film-Festival",
     "Islamic-Theatre-Night", "Ramadan-Art-Exhibition", "Eid-Expo", "Islamic-Cultural-Parade", "Ramadan-Book-Fair",
     "Iftar-Concert", "Islamic-Food-Festival", "Ramadan-Community-Day", "Eid-Celebration-Expo",
 
-    # Islamic Religious Rituals and Practices (50 items)
+    # Islamic Religious Rituals And Practices (50 Items)
     "Salah", "Sawm", "Hajj", "Umrah", "Wudu", "Ghusl", "Tayammum", "Dua", "Dhikr", "Tasbih", "Quran-Recitation",
     "Sunnah-Prayers", "Tarawih", "I'tikaf", "Sadaqah", "Zakat", "Khutbah", "Adhan", "Iqamah", "Niyyah",
     "Ruku", "Sujud", "Tashahhud", "Qiyam", "Jalsa", "Sahur", "Iftar", "Witr", "Tahajjud", "Jumu'ah",
     "Duha", "Mawlid-Observance", "Zamzam-Drinking", "Sa’i", "Raml", "Ritual-Cleansing", "Prayer-Beads",
     "Dhuhr", "Asr", "Maghrib", "Isha", "Qunut", "Janazah", "Sunnah-Fasting", "Aqiqah", "Nikah", "Talaq",
-    "Hijab-Observance", "Khilafah-Oath", "Sadaqat-ul-Fitr",
+    "Hijab-Observance", "Khilafah-Oath", "Sadaqat-Ul-Fitr",
 
-    # Islamic Modern Movements and Organizations (50 items)
-    "Muslim-Brotherhood", "Jamaat-e-Islami", "Tablighi-Jamaat", "Al-Islah-Movement", "Darul-Uloom-Movement",
-    "Ahl-i-Hadith-Movement", "Tanzim-al-Jihad", "Global-Dawah-Network", "Muslim-Youth-League", "Islamic-Fiqh-Academy",
-    "Islamic-Research-Foundation", "World-Assembly-of-Muslim-Youth", "International-Union-of-Muslim-Scholars", "Council-of-Islamic-Ideology", "Muslim-Public-Affairs-Council",
-    "Islamic-Society-of-North-America", "European-Council-for-Fatwa-and-Research", "Islamic-Circle-of-North-America", "Muslim-World-League", "Islamic-Educational-Scientific-and-Cultural-Organization",
+    # Islamic Modern Movements And Organizations (50 Items)
+    "Muslim-Brotherhood", "Jamaat-E-Islami", "Tablighi-Jamaat", "Al-Islah-Movement", "Darul-Uloom-Movement",
+    "Ahl-I-Hadith-Movement", "Tanzim-Al-Jihad", "Global-Dawah-Network", "Muslim-Youth-League", "Islamic-Fiqh-Academy",
+    "Islamic-Research-Foundation", "World-Assembly-Of-Muslim-Youth", "International-Union-Of-Muslim-Scholars", "Council-Of-Islamic-Ideology", "Muslim-Public-Affairs-Council",
+    "Islamic-Society-Of-North-America", "European-Council-For-Fatwa-And-Research", "Islamic-Circle-Of-North-America", "Muslim-World-League", "Islamic-Educational-Scientific-And-Cultural-Organization",
     "International-Islamic-Relief-Organization", "Islamic-Development-Bank", "Muslim-Aid", "Islamic-Relief-Worldwide", "Zakat-Foundation", "Muslim-Hands",
-    "Islamic-Medical-Association", "Council-on-American-Islamic-Relations", "Islamic-Society-of-Britain", "Muslim-Association-of-Britain", "Muslim-Council-of-Britain", "Islamic-Forum-of-Europe", "Muslim-Welfare-Trust",
-    "Islamic-Foundation", "Muslim-Charities-Forum", "Global-Islamic-Call-Society", "Islamic-Society-of-South-Africa", "Muslim-Outreach", "Muslim-Public-Affairs", "Islamic-Legal-Studies-Center", "Islamic-Studies-Association", "Muslim-Media-Watch", "Islamic-Unity-Conference",
-    "Global-Muslim-Youth", "Modern-Muslim-Forum", "Islamic-Summit", "International-Muslim-Conference", "United-Muslim-Scholars", "Muslim-Council-of-Elders", "Progressive-Muslim-Network"
+    "Islamic-Medical-Association", "Council-On-American-Islamic-Relations", "Islamic-Society-Of-Britain", "Muslim-Association-Of-Britain", "Muslim-Council-Of-Britain", "Islamic-Forum-Of-Europe", "Muslim-Welfare-Trust",
+    "Islamic-Foundation", "Muslim-Charities-Forum", "Global-Islamic-Call-Society", "Islamic-Society-Of-South-Africa", "Muslim-Outreach", "Muslim-Public-Affairs", "Islamic-Legal-Studies-Center", "Islamic-Studies-Association", "Muslim-Media-Watch", "Islamic-Unity-Conference",
+    "Global-Muslim-Youth", "Modern-Muslim-Forum", "Islamic-Summit", "International-Muslim-Conference", "United-Muslim-Scholars", "Muslim-Council-Of-Elders", "Progressive-Muslim-Network"
 
 
-    # 1. Hinglish Sufi Saints aur Mystics ke Naam (50 items)
-    "Junaid-e-Hind", "Abdul Qadir-e-Hind", "Fakir-e-Raah", "Rumi-e-Dil", "Shah-e-Suhail", 
-    "Baba-e-Mohabbat", "Pir-e-Raaz", "Sultan-e-Sufi", "Haqiqi Saheb", "Fana-e-Dil", 
-    "Ishq-e-Rooh", "Gul-e-Ishq", "Roohani Dost", "Sufi Saathi", "Qalandar-e-Khuda", 
-    "Ruhani Saheb", "Mehboob-e-Raah", "Dilbar-e-Sufi", "Ishqwala Baba", "Rumi-e-Raah", 
-    "Saif-e-Suhana", "Fana-e-Safar", "Sufi Nazaara", "Raaz-e-Mohabbat", "Dil-e-Suhana", 
-    "Noor-e-Sufi", "Suhani Pir", "Qalander-e-Dil", "Ruh-e-Mohabbat", "Ishq-e-Qalandar", 
-    "Sufi Dost-e-Dil", "Raah-e-Rumi", "Pir-e-Dilbar", "Rumi ke Saaye", "Sufi Junoon", 
-    "Noor-e-Ishq", "Dil ka Faqir", "Ishq ka Junoon", "Ruhani Junoon", "Sufi Saagar", 
-    "Ishq ka Dariya", "Pir-e-Ishq", "Sufi Zauq", "Dilbar-e-Raaz", "Rumi-e-Saahil", 
-    "Sufi Mehfil", "Ishq ka Paigham", "Pir-e-Haq", "Rooh ka Safar", "Ishq-e-Raaz",
+    # 1. Hinglish Sufi Saints Aur Mystics Ke Naam (50 Items)
+    "Junaid-E-Hind", "Abdul Qadir-E-Hind", "Fakir-E-Raah", "Rumi-E-Dil", "Shah-E-Suhail", 
+    "Baba-E-Mohabbat", "Pir-E-Raaz", "Sultan-E-Sufi", "Haqiqi Saheb", "Fana-E-Dil", 
+    "Ishq-E-Rooh", "Gul-E-Ishq", "Roohani Dost", "Sufi Saathi", "Qalandar-E-Khuda", 
+    "Ruhani Saheb", "Mehboob-E-Raah", "Dilbar-E-Sufi", "Ishqwala Baba", "Rumi-E-Raah", 
+    "Saif-E-Suhana", "Fana-E-Safar", "Sufi Nazaara", "Raaz-E-Mohabbat", "Dil-E-Suhana", 
+    "Noor-E-Sufi", "Suhani Pir", "Qalander-E-Dil", "Ruh-E-Mohabbat", "Ishq-E-Qalandar", 
+    "Sufi Dost-E-Dil", "Raah-E-Rumi", "Pir-E-Dilbar", "Rumi Ke Saaye", "Sufi Junoon", 
+    "Noor-E-Ishq", "Dil Ka Faqir", "Ishq Ka Junoon", "Ruhani Junoon", "Sufi Saagar", 
+    "Ishq Ka Dariya", "Pir-E-Ishq", "Sufi Zauq", "Dilbar-E-Raaz", "Rumi-E-Saahil", 
+    "Sufi Mehfil", "Ishq Ka Paigham", "Pir-E-Haq", "Rooh Ka Safar", "Ishq-E-Raaz",
 
-    # 2. Hinglish Quranic Surahs ke Naam (50 items)
-    "Fatiha-e-Rahmat", "Baqarah-e-Barkat", "Al-Imran-e-Noor", "Nisa-e-Hidayat", "Maidah-e-Ikhlas", 
-    "An'am-e-Safai", "Araf-e-Ruhani", "Anfal-e-Mujahad", "Tawbah-e-Sajda", "Yunus-e-Bawafa", 
-    "Hud-e-Taleem", "Yusuf-e-Dilbar", "Rad-e-Haq", "Ibrahim-e-Bilkul", "Hijr-e-Raaz", 
-    "Nahl-e-Imaan", "Isra-e-Ma'roof", "Kahf-e-Safar", "Maryam-e-Noor", "Taha-e-Hikmat", 
-    "Anbiya-e-Raahnuma", "Hajj-e-Safar", "Muminun-e-Aqida", "Nur-e-Ishq", "Furqan-e-Sahi", 
-    "Shuara-e-Kalam", "Naml-e-Dil", "Qasas-e-Rasool", "Ankabut-e-Raaz", "Rum-e-Hunar", 
-    "Luqman-e-Danish", "Sajdah-e-Qalb", "Ahzab-e-Ijtima", "Saba-e-Falak", "Fatir-e-Bilkul", 
-    "Yaseen-e-Raaz", "Saffat-e-Awaz", "Sad-e-Imaan", "Zumar-e-Raaz", "Ghafir-e-Maafi", 
-    "Fussilat-e-Tafseer", "Shura-e-Hikmat", "Zukhruf-e-Zauq", "Dukhan-e-Bulandi", "Jathiyah-e-Izzat", 
-    "Ahqaf-e-Raaz", "Muhammad-e-Mubarak", "Fath-e-Imaan", "Hujurat-e-Dil", "Qaf-e-Mohabbat",
+    # 2. Hinglish Quranic Surahs Ke Naam (50 Items)
+    "Fatiha-E-Rahmat", "Baqarah-E-Barkat", "Al-Imran-E-Noor", "Nisa-E-Hidayat", "Maidah-E-Ikhlas", 
+    "An'am-E-Safai", "Araf-E-Ruhani", "Anfal-E-Mujahad", "Tawbah-E-Sajda", "Yunus-E-Bawafa", 
+    "Hud-E-Taleem", "Yusuf-E-Dilbar", "Rad-E-Haq", "Ibrahim-E-Bilkul", "Hijr-E-Raaz", 
+    "Nahl-E-Imaan", "Isra-E-Ma'roof", "Kahf-E-Safar", "Maryam-E-Noor", "Taha-E-Hikmat", 
+    "Anbiya-E-Raahnuma", "Hajj-E-Safar", "Muminun-E-Aqida", "Nur-E-Ishq", "Furqan-E-Sahi", 
+    "Shuara-E-Kalam", "Naml-E-Dil", "Qasas-E-Rasool", "Ankabut-E-Raaz", "Rum-E-Hunar", 
+    "Luqman-E-Danish", "Sajdah-E-Qalb", "Ahzab-E-Ijtima", "Saba-E-Falak", "Fatir-E-Bilkul", 
+    "Yaseen-E-Raaz", "Saffat-E-Awaz", "Sad-E-Imaan", "Zumar-E-Raaz", "Ghafir-E-Maafi", 
+    "Fussilat-E-Tafseer", "Shura-E-Hikmat", "Zukhruf-E-Zauq", "Dukhan-E-Bulandi", "Jathiyah-E-Izzat", 
+    "Ahqaf-E-Raaz", "Muhammad-E-Mubarak", "Fath-E-Imaan", "Hujurat-E-Dil", "Qaf-E-Mohabbat",
 
-    # 3. Hinglish Jung-E (Islamic Battles) ke Naam (50 items)
+    # 3. Hinglish Jung-E (Islamic Battles) Ke Naam (50 Items)
     "Jung-E-Badr", "Jung-E-Uhud", "Jung-E-Khandaq", "Jung-E-Khyber", "Jung-E-Hunain", 
     "Jung-E-Tabuk", "Jung-E-Muta", "Jung-E-Yarmouk", "Jung-E-Qadisiyya", "Jung-E-Siffin", 
     "Jung-E-Nahrawan", "Jung-E-Karbala", "Jung-E-Jamal", "Jung-E-Harrah", "Jung-E-Plassey", 
     "Jung-E-Panipat", "Jung-E-Hattin", "Jung-E-Ain Jalut", "Jung-E-Manzikert", "Jung-E-Talas", 
     "Jung-E-Tours", "Jung-E-Vienna", "Jung-E-Guadalete", "Jung-E-Constantinople", "Jung-E-Andalusia", 
-    "Jung-E-Ghazwa-e-Hind", "Jung-E-Raazdaar", "Jung-E-Shujaat", "Jung-E-Fatehpur", "Jung-E-Roohdaar", 
+    "Jung-E-Ghazwa-E-Hind", "Jung-E-Raazdaar", "Jung-E-Shujaat", "Jung-E-Fatehpur", "Jung-E-Roohdaar", 
     "Jung-E-Dilse", "Jung-E-Himmat", "Jung-E-Wafa", "Jung-E-Ikhlaas", "Jung-E-Tamanna", 
     "Jung-E-Umeed", "Jung-E-Azadi", "Jung-E-Mohafiz", "Jung-E-Bahara", "Jung-E-Shaheed", 
     "Jung-E-Jaag", "Jung-E-Dilbar", "Jung-E-Raah", "Jung-E-Mohabbat", "Jung-E-Safa", 
     "Jung-E-Aman", "Jung-E-Qurbani", "Jung-E-Firaaq", "Jung-E-Ishq", "Jung-E-Dastaar",
 
-    # 4. Hinglish Masjid aur Qila ke Naam (50 items)
-    "Masjid-e-Nawabi", "Qila-e-Mughal", "Masjid-e-Shahi", "Qila-e-Agra", "Masjid-e-Bara", 
-    "Qila-e-Taj", "Masjid-e-Hind", "Qila-e-Dilli", "Masjid-e-Mausam", "Qila-e-Raunak", 
-    "Masjid-e-Shaan", "Qila-e-Jawahar", "Masjid-e-Barkat", "Qila-e-Dilbar", "Masjid-e-Ishq", 
-    "Qila-e-Rumi", "Masjid-e-Raaz", "Qila-e-Shahenshah", "Masjid-e-Noor", "Qila-e-Sultan", 
-    "Masjid-e-Falak", "Qila-e-Zamana", "Masjid-e-Tajalli", "Qila-e-Haider", "Masjid-e-Raunaq", 
-    "Qila-e-Mahabbat", "Masjid-e-Saif", "Qila-e-Safa", "Masjid-e-Gulzar", "Qila-e-Ikhlas", 
-    "Masjid-e-Dilse", "Qila-e-Aashiyana", "Masjid-e-Qasr", "Qila-e-Bastar", "Masjid-e-Dastaan", 
-    "Qila-e-Riyasat", "Masjid-e-Ruhani", "Qila-e-Fateh", "Masjid-e-Tasveer", "Qila-e-Sarhad", 
-    "Masjid-e-Zauq", "Qila-e-Raushan", "Masjid-e-Banarsi", "Qila-e-Jashn", "Masjid-e-Nazrana", 
-    "Qila-e-Murad", "Masjid-e-Aqsa", "Qila-e-Khuda", "Masjid-e-Raah", "Qila-e-Dastoor",
+    # 4. Hinglish Masjid Aur Qila Ke Naam (50 Items)
+    "Masjid-E-Nawabi", "Qila-E-Mughal", "Masjid-E-Shahi", "Qila-E-Agra", "Masjid-E-Bara", 
+    "Qila-E-Taj", "Masjid-E-Hind", "Qila-E-Dilli", "Masjid-E-Mausam", "Qila-E-Raunak", 
+    "Masjid-E-Shaan", "Qila-E-Jawahar", "Masjid-E-Barkat", "Qila-E-Dilbar", "Masjid-E-Ishq", 
+    "Qila-E-Rumi", "Masjid-E-Raaz", "Qila-E-Shahenshah", "Masjid-E-Noor", "Qila-E-Sultan", 
+    "Masjid-E-Falak", "Qila-E-Zamana", "Masjid-E-Tajalli", "Qila-E-Haider", "Masjid-E-Raunaq", 
+    "Qila-E-Mahabbat", "Masjid-E-Saif", "Qila-E-Safa", "Masjid-E-Gulzar", "Qila-E-Ikhlas", 
+    "Masjid-E-Dilse", "Qila-E-Aashiyana", "Masjid-E-Qasr", "Qila-E-Bastar", "Masjid-E-Dastaan", 
+    "Qila-E-Riyasat", "Masjid-E-Ruhani", "Qila-E-Fateh", "Masjid-E-Tasveer", "Qila-E-Sarhad", 
+    "Masjid-E-Zauq", "Qila-E-Raushan", "Masjid-E-Banarsi", "Qila-E-Jashn", "Masjid-E-Nazrana", 
+    "Qila-E-Murad", "Masjid-E-Aqsa", "Qila-E-Khuda", "Masjid-E-Raah", "Qila-E-Dastoor",
 
-    # 5. Hinglish Islamic Festivals aur Tyohaar (50 items)
-    "Eid-ul-Fitr ka Jashn", "Ramzan ka Mahina", "Shab-e-Barat ki Raat", "Laylatul Qadr ka Noor", 
-    "Shab-e-Miraj ki Yaad", "Shab-e-Qadr ka Raaz", "Dhul Hijjah ka Mahina", "Muharram ka Dukh", "Ashura ka Waqt", 
-    "Jumada al-Awwal ka Jashn", "Safar ka Safar", "Rabi ul-Awwal ki Khushi", "Rabi ul-Thani ka Andaz", "Jumada al-Thani ka Mahina", 
-    "Rajab ka Aashirwaad", "Shaaban ki Tayaari", "Shawwal ka Jashn", "Dhul Qadah ki Baarish", "Hajj ka Safar", 
-    "Umrah ka Armaan", "Mawlid-e-Nabi ka Jashn", "Eid-e-Milad un Nabi", "Chand Raat ki Khushbu", "Iftar ki Mehfil", 
-    "Sehar ki Mehfil", "Roza ka Jazba", "Iftar ka Mazaa", "Suhur ka Nasha", "Ramzan Bazaar", 
-    "Iftar Party", "Eid ki Taiyari", "Eid ka Silsila", "Ramzan ki Mehakti Raat", "Eid-ul-Aziz", 
-    "Noor-e-Ramzan", "Eid ka Tyohaar", "Ramzan ka Imaan", "Eid ki Dawat", "Ramzan ki Dua", 
-    "Iftar ki Dastarkhwan", "Eid ka Utsav", "Ramzan ka Ehsas", "Iftar ka Silsila", "Eid ki Raat", 
-    "Ramzan ka Suhana", "Iftar ka Jashn", "Eid ka Jazba", "Ramzan ki Roshni", "Eid ki Barkat",
+    # 5. Hinglish Islamic Festivals Aur Tyohaar (50 Items)
+    "Eid-Ul-Fitr Ka Jashn", "Ramzan Ka Mahina", "Shab-E-Barat Ki Raat", "Laylatul Qadr Ka Noor", 
+    "Shab-E-Miraj Ki Yaad", "Shab-E-Qadr Ka Raaz", "Dhul Hijjah Ka Mahina", "Muharram Ka Dukh", "Ashura Ka Waqt", 
+    "Jumada Al-Awwal Ka Jashn", "Safar Ka Safar", "Rabi Ul-Awwal Ki Khushi", "Rabi Ul-Thani Ka Andaz", "Jumada Al-Thani Ka Mahina", 
+    "Rajab Ka Aashirwaad", "Shaaban Ki Tayaari", "Shawwal Ka Jashn", "Dhul Qadah Ki Baarish", "Hajj Ka Safar", 
+    "Umrah Ka Armaan", "Mawlid-E-Nabi Ka Jashn", "Eid-E-Milad Un Nabi", "Chand Raat Ki Khushbu", "Iftar Ki Mehfil", 
+    "Sehar Ki Mehfil", "Roza Ka Jazba", "Iftar Ka Mazaa", "Suhur Ka Nasha", "Ramzan Bazaar", 
+    "Iftar Party", "Eid Ki Taiyari", "Eid Ka Silsila", "Ramzan Ki Mehakti Raat", "Eid-Ul-Aziz", 
+    "Noor-E-Ramzan", "Eid Ka Tyohaar", "Ramzan Ka Imaan", "Eid Ki Dawat", "Ramzan Ki Dua", 
+    "Iftar Ki Dastarkhwan", "Eid Ka Utsav", "Ramzan Ka Ehsas", "Iftar Ka Silsila", "Eid Ki Raat", 
+    "Ramzan Ka Suhana", "Iftar Ka Jashn", "Eid Ka Jazba", "Ramzan Ki Roshni", "Eid Ki Barkat",
 
-    # 6. Hinglish Islamic Science aur Fankaar (50 items)
-    "Ibn Sina ka Dimaag", "Al-Razi ka Ilm", "Al-Kindi ki Soch", "Ibn al-Haytham ka Nazariya", "Al-Farabi ka Falsafa", 
-    "Ibn Khaldun ka Tareekh", "Nasir al-Din Tusi ka Hisab", "Ibn al-Nafis ka Dil", "Al-Biruni ki Khoj", "Al-Khwarizmi ka Algorithm", 
-    "Ibn Battuta ka Safar", "Al-Zahrawi ka Surgery", "Al-Razi ke Dawa", "Ibn Sina ki Kitab", "Al-Farabi ke Fikr", 
-    "Ibn Khaldun ka Nazariya", "Al-Khwarizmi ke Number", "Ibn al-Haytham ki Roshni", "Al-Razi ka Tajurba", "Al-Kindi ke Mantaq", 
-    "Ibn Battuta ka Safarnama", "Al-Biruni ke Hisab", "Al-Zahrawi ka Amal", "Ibn al-Nafis ka Risala", "Al-Khwarizmi ka Calculator", 
-    "Ibn Sina ka Falsafa", "Al-Razi ka Tajurba", "Ibn Khaldun ka Tareeka", "Al-Farabi ki Soch", "Nasir Tusi ka Hisab", 
-    "Ibn al-Haytham ka Andaz", "Al-Kindi ka Logic", "Ibn Battuta ka Safarnama", "Al-Biruni ka Jeevan", "Al-Zahrawi ka Ilaj", 
-    "Ibn al-Nafis ka Daur", "Al-Khwarizmi ka Hisaab", "Ibn Sina ka Marz", "Al-Razi ke Experiment", "Al-Farabi ke Raaz", 
-    "Ibn Khaldun ki Soch", "Nasir Tusi ka Ilm", "Ibn al-Haytham ka Camera Obscura", "Al-Kindi ka Raaz", "Ibn Battuta ki Manzil", 
-    "Al-Biruni ka Safar", "Al-Zahrawi ka Ilm", "Ibn al-Nafis ki Khoj", "Al-Khwarizmi ka Science", "Ibn Sina ka Daur",
+    # 6. Hinglish Islamic Science Aur Fankaar (50 Items)
+    "Ibn Sina Ka Dimaag", "Al-Razi Ka Ilm", "Al-Kindi Ki Soch", "Ibn Al-Haytham Ka Nazariya", "Al-Farabi Ka Falsafa", 
+    "Ibn Khaldun Ka Tareekh", "Nasir Al-Din Tusi Ka Hisab", "Ibn Al-Nafis Ka Dil", "Al-Biruni Ki Khoj", "Al-Khwarizmi Ka Algorithm", 
+    "Ibn Battuta Ka Safar", "Al-Zahrawi Ka Surgery", "Al-Razi Ke Dawa", "Ibn Sina Ki Kitab", "Al-Farabi Ke Fikr", 
+    "Ibn Khaldun Ka Nazariya", "Al-Khwarizmi Ke Number", "Ibn Al-Haytham Ki Roshni", "Al-Razi Ka Tajurba", "Al-Kindi Ke Mantaq", 
+    "Ibn Battuta Ka Safarnama", "Al-Biruni Ke Hisab", "Al-Zahrawi Ka Amal", "Ibn Al-Nafis Ka Risala", "Al-Khwarizmi Ka Calculator", 
+    "Ibn Sina Ka Falsafa", "Al-Razi Ka Tajurba", "Ibn Khaldun Ka Tareeka", "Al-Farabi Ki Soch", "Nasir Tusi Ka Hisab", 
+    "Ibn Al-Haytham Ka Andaz", "Al-Kindi Ka Logic", "Ibn Battuta Ka Safarnama", "Al-Biruni Ka Jeevan", "Al-Zahrawi Ka Ilaj", 
+    "Ibn Al-Nafis Ka Daur", "Al-Khwarizmi Ka Hisaab", "Ibn Sina Ka Marz", "Al-Razi Ke Experiment", "Al-Farabi Ke Raaz", 
+    "Ibn Khaldun Ki Soch", "Nasir Tusi Ka Ilm", "Ibn Al-Haytham Ka Camera Obscura", "Al-Kindi Ka Raaz", "Ibn Battuta Ki Manzil", 
+    "Al-Biruni Ka Safar", "Al-Zahrawi Ka Ilm", "Ibn Al-Nafis Ki Khoj", "Al-Khwarizmi Ka Science", "Ibn Sina Ka Daur",
     
 
-    # 8. Hinglish Tariekhi Shakhsiyat (Islamic Historical Personalities) (50 items)
-    "Hazrat Abu Bakr-e-Hind", "Hazrat Umar-e-Farishta", "Hazrat Usman-e-Dilbar", "Hazrat Ali-e-Saqi", "Hazrat Bilal-e-Noor", 
-    "Hazrat Salman-e-Raaz", "Hazrat Suhail-e-Raah", "Hazrat Ammar-e-Imaan", "Hazrat Khalid-e-Mujahid", "Hazrat Saad-e-Mohafiz", 
-    "Hazrat Zubair-e-Sab", "Hazrat Abbas-e-Murad", "Hazrat Hamza-e-Dil", "Hazrat Abu Talib-e-Raaz", "Hazrat Umar Farooq-e-Haq", 
-    "Hazrat Usman Ghani-e-Safar", "Hazrat Ali Asghar-e-Dil", "Hazrat Fatima-e-Raaz", "Hazrat Khadija-e-Sukoon", "Hazrat Aisha-e-Raunak", 
-    "Hazrat Hasan-e-Ishq", "Hazrat Hussain-e-Sab", "Hazrat Mueen-e-Raaz", "Hazrat Saif-e-Haq", "Hazrat Qasim-e-Dil", 
-    "Hazrat Idris-e-Raaz", "Hazrat Hud-e-Hikmat", "Hazrat Salih-e-Raah", "Hazrat Ibrahim-e-Mohabbat", "Hazrat Ismail-e-Raaz", 
-    "Hazrat Ishaq-e-Dil", "Hazrat Yaqub-e-Raunaq", "Hazrat Yusuf-e-Husn", "Hazrat Ayyub-e-Sabr", "Hazrat Shuayb-e-Dil", 
-    "Hazrat Musa-e-Qalb", "Hazrat Harun-e-Saaz", "Hazrat Dawud-e-Raaz", "Hazrat Sulaiman-e-Dil", "Hazrat Yunus-e-Raah", 
-    "Hazrat Ilyas-e-Haqq", "Hazrat Ayyub-e-Ishq", "Hazrat Zakariya-e-Noor", "Hazrat Yahya-e-Hikmat", "Hazrat Isa-e-Raaz", 
-    "Hazrat Muhammad-e-Sukoon", "Hazrat Imam-e-Raaz", "Hazrat Malik-e-Saaz", "Hazrat Rumi-e-Dilbar", "Hazrat Sir Syed-e-Haq",
+    # 8. Hinglish Tariekhi Shakhsiyat (Islamic Historical Personalities) (50 Items)
+    "Hazrat Abu Bakr-E-Hind", "Hazrat Umar-E-Farishta", "Hazrat Usman-E-Dilbar", "Hazrat Ali-E-Saqi", "Hazrat Bilal-E-Noor", 
+    "Hazrat Salman-E-Raaz", "Hazrat Suhail-E-Raah", "Hazrat Ammar-E-Imaan", "Hazrat Khalid-E-Mujahid", "Hazrat Saad-E-Mohafiz", 
+    "Hazrat Zubair-E-Sab", "Hazrat Abbas-E-Murad", "Hazrat Hamza-E-Dil", "Hazrat Abu Talib-E-Raaz", "Hazrat Umar Farooq-E-Haq", 
+    "Hazrat Usman Ghani-E-Safar", "Hazrat Ali Asghar-E-Dil", "Hazrat Fatima-E-Raaz", "Hazrat Khadija-E-Sukoon", "Hazrat Aisha-E-Raunak", 
+    "Hazrat Hasan-E-Ishq", "Hazrat Hussain-E-Sab", "Hazrat Mueen-E-Raaz", "Hazrat Saif-E-Haq", "Hazrat Qasim-E-Dil", 
+    "Hazrat Idris-E-Raaz", "Hazrat Hud-E-Hikmat", "Hazrat Salih-E-Raah", "Hazrat Ibrahim-E-Mohabbat", "Hazrat Ismail-E-Raaz", 
+    "Hazrat Ishaq-E-Dil", "Hazrat Yaqub-E-Raunaq", "Hazrat Yusuf-E-Husn", "Hazrat Ayyub-E-Sabr", "Hazrat Shuayb-E-Dil", 
+    "Hazrat Musa-E-Qalb", "Hazrat Harun-E-Saaz", "Hazrat Dawud-E-Raaz", "Hazrat Sulaiman-E-Dil", "Hazrat Yunus-E-Raah", 
+    "Hazrat Ilyas-E-Haqq", "Hazrat Ayyub-E-Ishq", "Hazrat Zakariya-E-Noor", "Hazrat Yahya-E-Hikmat", "Hazrat Isa-E-Raaz", 
+    "Hazrat Muhammad-E-Sukoon", "Hazrat Imam-E-Raaz", "Hazrat Malik-E-Saaz", "Hazrat Rumi-E-Dilbar", "Hazrat Sir Syed-E-Haq",
 
-    # 9. Hinglish Islami Falsafa aur Aqeeda (50 items)
-    "Tawheed ka Paigham", "Shirk se Bachao", "Risalat ka Asar", "Akhirah ka Imaan", "Malaika ki Barkat", 
-    "Qadar ka Raaz", "Quran ka Noor", "Sunnat ka Silsila", "Hadith ka Paigham", "Fiqh ka Ujala", 
-    "Ijma ka Ittehad", "Qiyas ka Misaal", "Ijtihad ka Junoon", "Zakat ka Faraiz", "Salah ka Waqt", 
-    "Sawm ka Jazba", "Hajj ka Safar", "Umrah ka Armaan", "Tahajjud ka Wada", "Tasbih ka Zauq", 
-    "Tahmeed ka Paigham", "Takbir ka Jazba", "Tahlil ka Falsafa", "Shahada ka Imaan", "Wudu ka Safa", 
-    "Ghusl ka Fikr", "Tayammum ka Raaz", "Adhan ka Awaaz", "Iqamah ka Amal", "Jumuah ka Jamaat", 
-    "Eid ka Paigham", "Qurbani ka Jazba", "Aqiqah ka Mausam", "Nikah ka Bandhan", "Talaq ka Iqraar", 
-    "Khula ka Faisla", "Hijab ka Zevar", "Niqab ka Raaz", "Burqa ka Andaaz", "Halal ka Maqaam", 
-    "Haram ka Ittelaa", "Makruh ka Ehsaas", "Mustahab ka Mansooba", "Mubah ka Faisla", "Fard ka Farz", 
-    "Wajib ka Amal", "Sunnat ka Rasm", "Nafl ka Silsila", "Bidah ka Iqraar", "Taqwa ka Paigham",
+    # 9. Hinglish Islami Falsafa Aur Aqeeda (50 Items)
+    "Tawheed-Ka-Paigham", "Shirk Se Bachao", "Risalat Ka Asar", "Akhirah Ka Imaan", "Malaika Ki Barkat", 
+    "Qadar Ka Raaz", "Quran Ka Noor", "Sunnat Ka Silsila", "Hadith Ka Paigham", "Fiqh Ka Ujala", 
+    "Ijma Ka Ittehad", "Qiyas Ka Misaal", "Ijtihad Ka Junoon", "Zakat Ka Faraiz", "Salah Ka Waqt", 
+    "Sawm Ka Jazba", "Hajj Ka Safar", "Umrah Ka Armaan", "Tahajjud Ka Wada", "Tasbih Ka Zauq", 
+    "Tahmeed Ka Paigham", "Takbir Ka Jazba", "Tahlil Ka Falsafa", "Shahada Ka Imaan", "Wudu Ka Safa", 
+    "Ghusl Ka Fikr", "Tayammum Ka Raaz", "Adhan Ka Awaaz", "Iqamah Ka Amal", "Jumuah Ka Jamaat", 
+    "Eid Ka Paigham", "Qurbani Ka Jazba", "Aqiqah Ka Mausam", "Nikah Ka Bandhan", "Talaq Ka Iqraar", 
+    "Khula Ka Faisla", "Hijab Ka Zevar", "Niqab Ka Raaz", "Burqa Ka Andaaz", "Halal Ka Maqaam", 
+    "Haram Ka Ittelaa", "Makruh Ka Ehsaas", "Mustahab Ka Mansooba", "Mubah Ka Faisla", "Fard Ka Farz", 
+    "Wajib Ka Amal", "Sunnat Ka Rasm", "Nafl Ka Silsila", "Bidah Ka Iqraar", "Taqwa Ka Paigham",
 
-    
 
 ]
 
