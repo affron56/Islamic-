@@ -71,7 +71,7 @@ islamic_words = [
     "Al-Masad", "Al-Ikhlas", "Al-Falaq", "An-Nas",
 
     # Paigambar aur Sahaba ke Naam (150+)
-    "Adam", "Nuh", "Idris", "Hud", "Salih", "Ibrahim", "Lut", "Ismail", "Ishaq", "Yaqub", "Yusuf",
+    "Hazrat Adam", " Hazrat Nuh", "Idris", "Hud", "Salih", "Ibrahim", "Lut", "Ismail", "Ishaq", "Yaqub", "Yusuf",
     "Ayyub", "Shuayb", "Musa", "Harun", "Dawud", "Sulaiman", "Ilyas", "Al-Yasa", "Yunus", "Zakariya",
     "Yahya", "Isa", "Muhammad", "Abu Bakr", "Umar", "Usman", "Ali", "Talha", "Zubair", "Abdur Rahman",
     "Saad", "Saeed", "Abu Huraira", "Bilal", "Khabbab", "Ammar", "Miqdad", "Salman", "Suhail", "Zaid",
