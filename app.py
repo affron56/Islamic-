@@ -18,7 +18,7 @@ def index():
 
 @app.route('/generate')
 def generate():
-    return jsonify(word=random.choice(islamic_words).capitalize())
+    return jsonify(word=random.choice(islamic_words))
 
 if __name__ == '__main__':
     app.run(debug=True)
