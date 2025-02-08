@@ -7,8 +7,7 @@ app = Flask(__name__)
 # Curated list of 200+ common Hindi words in English (Expandable to 2000)
 islamic_words = [
 
-    "Wajib Ka Amal", "Sunnat Ka Rasm", "Nafl Ka Silsila", "Bidah Ka Iqraar", "Taqwa Ka Paigham",
-
+    
 
 
 ]
