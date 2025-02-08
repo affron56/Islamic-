@@ -6,9 +6,19 @@ app = Flask(__name__)
 
 # Curated list of 200+ common Hindi words in English (Expandable to 2000)
 islamic_words = [
-        # Paigambar (Prophets)
-    "Adam", "Ibrahim", "Ismail", "Ishaq", "Yaqub", "Yusuf", "Musa", "Harun", "Dawud", "Sulaiman",
-    "Yunus", "Ilyas", "Ayyub", "Zakariya", "Yahya", "Isa", "Muhammad",
+    # Paigambar (Prophets)
+    "Hazrat-Adam-Paigambar-E-Awwal-Alayhis-Salaam", "Hazrat-Idris-Paigambar-E-Irfan-Alayhis-Salaam", 
+    "Hazrat-Nuh-Paigambar-E-Sabr-Alayhis-Salaam", "Hazrat-Hud-Paigambar-E-Hidayat-Alayhis-Salaam", 
+    "Hazrat-Salih-Paigambar-E-Barkat-Alayhis-Salaam", "Hazrat-Ibrahim-Paigambar-E-Mubarak-Alayhis-Salaam", 
+    "Hazrat-Lut-Paigambar-E-Mubarak-Alayhis-Salaam", "Hazrat-Ismail-Paigambar-E-Mubaraka-Alayhis-Salaam", 
+    "Hazrat-Ishaq-Paigambar-E-Mubarak-Alayhis-Salaam", "Hazrat-Yaqub-Paigambar-E-Hikmat-Alayhis-Salaam", 
+    "Hazrat-Yusuf-Paigambar-E-Dilbar-Alayhis-Salaam", "Hazrat-Ayyub-Paigambar-E-Sabr-Alayhis-Salaam", 
+    "Hazrat-Shuayb-Paigambar-E-Burhan-Alayhis-Salaam", "Hazrat-Musa-Paigambar-E-Raahnuma-Alayhis-Salaam", 
+    "Hazrat-Harun-Paigambar-E-Musaabiq-Alayhis-Salaam", "Hazrat-Dawud-Paigambar-E-Majid-Alayhis-Salaam", 
+    "Hazrat-Sulaiman-Paigambar-E-Adl-Alayhis-Salaam", "Hazrat-Ilyas-Paigambar-E-Raaz-Alayhis-Salaam", 
+    "Hazrat-Al-Yasa-Paigambar-E-Hikmat-Alayhis-Salaam", "Hazrat-Yunus-Paigambar-E-Tawakkul-Alayhis-Salaam", 
+    "Hazrat-Zakariya-Paigambar-E-Hikmat-Alayhis-Salaam", "Hazrat-Yahya-Paigambar-E-Fazilat-Alayhis-Salaam", 
+    "Hazrat-Isa-Paigambar-E-Mubarak-Alayhis-Salaam", "Hazrat-Muhammad-Paigambar-E-Rasoolullah-Sallallahu-Aleyhi-Wassallam",
 
     # Allah Ke Wali (Saints And Righteous People)
     "Abu Bakr", "Umar", "Usman", "Ali", "Khadija", "Fatima", "Hassan", "Hussain", "Bilal", "Salman",
