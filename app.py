@@ -355,16 +355,15 @@ islamic_words = [
     "Eid-E-Milad Un-Nabi", "Eid-E-Siraj", "Eid-E-Zahra", "Jashn-E-Nowruz", "Eid-E-Fitr Al-Saghir",
     "Mehfil-E-Sama", "Mela-E-Urdu", "Iftar Nights", "Ramadan Bazaar", "Night Of Qadr Recitals",
     "Eid-E-Rukhsati", "Mawlid-Ul-Nabi", "Shab-E-Suhar", "Eid-Ul-Ghadeer", "Ziarat Day",
-    "Imam Ali Day", "Eid-E-Imam Hussain", "Commemoration Of Karbala", "Eid-Ul-Burhan", "Night Of Forgiveness",
+    "Imam Ali Day", "Eid-E-Imam Hussain", "Eid-Ul-Burhan", "Night Of Forgiveness",
     "Sufi Urs", "Jashn-E-Baharan", "Cultural Festival Of Islam", "Ibadat Night", "Eid-E-Sajdah",
-    "Noor-Ul-Layl", "Eid-Ul-Rahmat", "Jashn-E-Falah", "Eid-Ul-Nur", "Mela-E-Muhabbat",
+    "Noor-Ul-Layl", "Eid-Ul-Rahmat", "Jashn-E-Falah", "Eid-Ul-Nur",
     "Eid-Ul-Ma'soom", "Jashn-E-Tajalli", "Iftar Mela", "Ramadan Caravan", "Suhar Gathering",
-    "Eid-Ul-Falak", "Mawlid Recital Night", "Eid-Ul-Farooq", "Eid-Ul-Hakim", "Sufi Dance Festival",
-    "Zikr Night", "Eid-Ul-Ahsan", "Jashn-E-Wahdat", "Eid-E-Rasool", "Eid-Ul-Quran",
-    "Mela-E-Dua", "Eid-Ul-Hubb",
+    "Eid-Ul-Falak", "Mawlid Recital Night", "Eid-Ul-Farooq", "Eid-Ul-Hakim", "Eid-Ul-Ahsan", 
+    "Jashn-E-Wahdat", "Eid-E-Rasool", "Eid-Ul-Quran", "Mela-E-Dua", "Eid-Ul-Hubb",
 
-    # Rashidun Caliphs (4 Items)
-    "Abu Bakr As-Siddiq", "Umar Ibn Al-Khattab", "Uthman Ibn Affan", "Ali Ibn Abi Talib",
+    # Rashidun Caliphs 
+    "Umar-Ibn Al-Khattab", "Uthman Ibn Affan", "Ali Ibn Abi Talib",
 
     # Umayyad Caliphs (10 Items)
     "Muawiyah I", "Yazid I", "Marwan I", "Abd Al-Malik Ibn Marwan", "Al-Walid I",
