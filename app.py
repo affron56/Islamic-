@@ -521,6 +521,7 @@ islamic_words = [
     "Wajib Ka Amal", "Sunnat Ka Rasm", "Nafl Ka Silsila", "Bidah Ka Iqraar", "Taqwa Ka Paigham",
 
 
+
 ]
 
 @app.route('/')
