@@ -4,8 +4,9 @@ import random
 
 app = Flask(__name__)
 
-# Curated list of 200+ common Hindi words in English (Expandable to 2000)
+
 islamic_words = [
+    
     # Paigambar (Prophets)
     "Hazrat-Adam-Paigambar-E-Awwal-Alayhis-Salaam", "Hazrat-Idris-Paigambar-E-Irfan-Alayhis-Salaam", 
     "Hazrat-Nuh-Paigambar-E-Sabr-Alayhis-Salaam", "Hazrat-Hud-Paigambar-E-Hidayat-Alayhis-Salaam", 
