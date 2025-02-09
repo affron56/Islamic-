@@ -263,16 +263,16 @@ islamic_words = [
     "Sayed-Rafiuddin", "Pir-Yusuf", "Khwaja-Abdullah-Shah", "Pir-Abdul-Salam"  
     
     # Famous Islamic Literary Works And Manuscripts (50 Items)
-    "Al-Muwatta", "Sahih Al-Bukhari", "Sahih Muslim", "Al-Muwafaqat", "Ihya Ulum Al-Din",
-    "Futuh Al-Ghaib", "Al-Risala", "Tafsir Al-Jalalayn", "Tafsir Ibn Kathir", "Al-Kitab Al-Muqaddas",
-    "Al-Aqidah Al-Tahawiyyah", "Rasa'il Ikhwan Al-Safa", "Fusus Al-Hikam", "Madarik Al-Tanzil", "Mu'jam Al-Buldan",
-    "Al-Muqaddimah", "Sirat Rasul Allah", "Al-Risala Al-Qushayriyya", "Tabaqat Al-Umam", "Al-Fihrist",
-    "The Meadows Of Gold", "Tarikh Al-Tabari", "Al-Kamil Fi Al-Tarikh", "Risala Qushayriyya", "Majma' Al-Fawaid",
-    "Nukat Al-I'tiqad", "Muntakhab Al-Tafsir", "Dala'il Al-Nubuwwah", "Ibn Hazm's Tauq Al-Imaan", "Tabaqat Al-Mutazawwijin",
-    "Riyad-Us-Saliheen", "Bulugh Al-Maram", "Fath Al-Bari", "Zad Al-Ma'ad", "Al-Tamhid",
-    "Al-Hikam", "Ihya Al-Suluk", "Mishkat Al-Masabih", "Al-Adab Al-Mufrad", "Al-Muwashshahat",
-    "Diwan-E-Meer", "Gulistan", "Bostan", "Masnavi-I Ma'navi", "Divan-E-Hafez",
-    "Shahnameh", "Siyar A'lam Al-Nubala", "Al-Kashf Al-Asrar", "Tuhfat Al-Ahrar", "Firdaws Al-Tahawwul",
+    "Al-Muwatta", "Sahih-Al-Bukhari", "Sahih-Muslim", "Al-Muwafaqat", "Ihya-Ulum-Al-Din",
+    "Futuh-Al-Ghaib", "Al-Risala", "Tafsir-Al-Jalalayn", "Tafsir-Ibn-Kathir", "Al-Kitab Al-Muqaddas",
+    "Al-Aqidah-Al-Tahawiyyah", "Rasa'il-Ikhwan Al-Safa", "Fusus-Al-Hikam", "Madarik-Al-Tanzil", "Mu'jam Al-Buldan",
+    "Al-Muqaddimah", "Sirat-Rasul-Allah", "Al-Risala-Al-Qushayriyya", "Tabaqat-Al-Umam", "Al-Fihrist",
+    "The-Meadows-Of-Gold", "Tarikh-Al-Tabari", "Al-Kamil-Fi-Al-Tarikh", "Risala-Qushayriyya", "Majma'-Al-Fawaid",
+    "Nukat-Al-I'tiqad", "Muntakhab-Al-Tafsir", "Dala'il-Al-Nubuwwah", "Ibn-Hazm's Tauq-Al-Imaan", "Tabaqat-Al-Mutazawwijin",
+    "Riyad-Us-Saliheen", "Bulugh-Al-Maram", "Fath-Al-Bari", "Zad Al-Ma'ad", "Al-Tamhid",
+    "Al-Hikam", "Ihya-Al-Suluk", "Mishkat Al-Masabih", "Al-Adab-Al-Mufrad", "Al-Muwashshahat",
+    "Diwan-E-Meer", "Gulistan", "Bostan", "Masnavi-I-Ma'navi", "Divan-E-Hafez",
+    "Shahnameh", "Siyar-A'lam-Al-Nubala", "Al-Kashf-Al-Asrar", "Tuhfat-Al-Ahrar", "Firdaws-Al-Tahawwul",
 
 
 
