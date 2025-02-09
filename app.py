@@ -275,12 +275,6 @@ islamic_words = [
     "Shahnameh", "Siyar-A'lam-Al-Nubala", "Al-Kashf-Al-Asrar", "Tuhfat-Al-Ahrar", "Firdaws-Al-Tahawwul",
 
 
-
-
-
-    #YAHA SE NICHE KA DATA CLEANING BAAKI HAI
-
-
     
     # Islamic Architectural Structures And Complexes (Additional) (50 Items)
     "Sheikh-Lotfollah-Mosque", "Shah-Mosque", "Gonbad-E-Qabus", "Tomb-Of-Shah-Rukn-E-Alam", "Mausoleum-Of-Khoja-Ahmed-Yasavi",
@@ -545,7 +539,6 @@ islamic_words = [
     "Al-Biruni-Ka-Safar", "Al-Zahrawi-Ka-Ilm", "Ibn-Al-Nafis-Ki-Khoj", "Al-Khwarizmi-Ka-Science", "Ibn-Sina-Ka-Daur"
 
 
-    
 
     # 8. Hinglish Tariekhi Shakhsiyat (Islamic Historical Personalities) (50 Items)
     "Hazrat-Abu-Bakr-E-Hind", "Hazrat-Umar-E-Farishta", "Hazrat-Usman-E-Dilbar", "Hazrat-Ali-E-Saqi", "Hazrat-Bilal-E-Noor",
