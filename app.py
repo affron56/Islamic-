@@ -436,7 +436,7 @@ islamic_words = [
     "Madrasa-Of-Najaf", "Madrasa-Of-Kufa", "Madrasa-Of-Medina", "Madrasa-Of-Makkah", "Madrasa-Of-Jerusalem",
     "Madrasa-Of-Alexandria", "Madrasa-Of-Istanbul", "Madrasa-Of-Bursa", "Madrasa-Of-Bursa-II", "Madrasa-Of-Amman",
 
-    # Islamic Cultural Festivals And Celebrations (50 Items)
+    # Islamic Festivals And Celebrations (50 Items)
     "Eid-Ul-Fitr", "Eid-Ul-Adha", "Ramadan-Iftar", "Laylat-Al-Qadr", "Mawlid-Al-Nabi", "Eid-E-Milad",
     "Sufi-Urs", "Islamic-New-Year", "Eid-E-Shab-E-Barat", "Ramadan-Nights", "Shab-E-Barat", "Ramadan-Mela",
     "Iftar-Bazaar", "Eid-Mela", "Eid-Fair", "Ramadan-Festival", "Quran-Recitation-Festival", "Islamic-Music-Festival",
@@ -447,7 +447,7 @@ islamic_words = [
     "Islamic-Theatre-Night", "Ramadan-Art-Exhibition", "Eid-Expo", "Islamic-Cultural-Parade", "Ramadan-Book-Fair",
     "Iftar-Concert", "Islamic-Food-Festival", "Ramadan-Community-Day", "Eid-Celebration-Expo",
 
-    # Islamic Religious Rituals And Practices (50 Items)
+    # Islamic Practices (50 Items)
     "Salah", "Sawm", "Hajj", "Umrah", "Wudu", "Ghusl", "Tayammum", "Dua", "Dhikr", "Tasbih", "Quran-Recitation",
     "Sunnah-Prayers", "Tarawih", "I'tikaf", "Sadaqah", "Zakat", "Khutbah", "Adhan", "Iqamah", "Niyyah",
     "Ruku", "Sujud", "Tashahhud", "Qiyam", "Jalsa", "Sahur", "Iftar", "Witr", "Tahajjud", "Jumu'ah",
@@ -465,7 +465,7 @@ islamic_words = [
     "Islamic-Foundation", "Muslim-Charities-Forum", "Global-Islamic-Call-Society", "Islamic-Society-Of-South-Africa", "Muslim-Outreach", "Muslim-Public-Affairs", "Islamic-Legal-Studies-Center", "Islamic-Studies-Association", "Muslim-Media-Watch", "Islamic-Unity-Conference",
     "Global-Muslim-Youth", "Modern-Muslim-Forum", "Islamic-Summit", "International-Muslim-Conference", "United-Muslim-Scholars", "Muslim-Council-Of-Elders", "Progressive-Muslim-Network",
 
-    # Hinglish Sufi Saints Aur Mystics Ke Naam (50 Items)
+    # Sufi Saints Aur Mystics Ke Naam (50 Items)
     "Junaid-E-Hind", "Abdul-Qadir-E-Hind", "Fakir-E-Raah", "Rumi-E-Dil", "Shah-E-Suhail",
     "Baba-E-Mohabbat", "Pir-E-Raaz", "Sultan-E-Sufi", "Haqiqi-Saheb", "Fana-E-Dil",
     "Ishq-E-Rooh", "Gul-E-Ishq", "Roohani-Dost", "Sufi-Saathi", "Qalandar-E-Khuda",
@@ -477,7 +477,7 @@ islamic_words = [
     "Ishq-Ka-Dariya", "Pir-E-Ishq", "Sufi-Zauq", "Dilbar-E-Raaz", "Rumi-E-Saahil",
     "Sufi-Mehfil", "Ishq-Ka-Paigham", "Pir-E-Haq", "Rooh-Ka-Safar", "Ishq-E-Raaz",
 
-    # Hinglish Quranic Surahs Ke Naam (50 Items)
+    # Quranic Surahs Ke Naam (50 Items)
     "Fatiha-E-Rahmat", "Baqarah-E-Barkat", "Al-Imran-E-Noor", "Nisa-E-Hidayat", "Maidah-E-Ikhlas",
     "An'am-E-Safai", "Araf-E-Ruhani", "Anfal-E-Mujahad", "Tawbah-E-Sajda", "Yunus-E-Bawafa",
     "Hud-E-Taleem", "Yusuf-E-Dilbar", "Rad-E-Haq", "Ibrahim-E-Bilkul", "Hijr-E-Raaz",
@@ -489,7 +489,7 @@ islamic_words = [
     "Fussilat-E-Tafseer", "Shura-E-Hikmat", "Zukhruf-E-Zauq", "Dukhan-E-Bulandi", "Jathiyah-E-Izzat",
     "Ahqaf-E-Raaz", "Muhammad-E-Mubarak", "Fath-E-Imaan", "Hujurat-E-Dil", "Qaf-E-Mohabbat",
 
-    # Hinglish Jung-E (Islamic Battles) Ke Naam (50 Items)
+    # Jung-E (Islamic Battles) Ke Naam (50 Items)
     "Jung-E-Badr", "Jung-E-Uhud", "Jung-E-Khandaq", "Jung-E-Khyber", "Jung-E-Hunain",
     "Jung-E-Tabuk", "Jung-E-Muta", "Jung-E-Yarmouk", "Jung-E-Qadisiyya", "Jung-E-Siffin",
     "Jung-E-Nahrawan", "Jung-E-Karbala", "Jung-E-Jamal", "Jung-E-Harrah", "Jung-E-Plassey",
@@ -501,7 +501,7 @@ islamic_words = [
     "Jung-E-Jaag", "Jung-E-Dilbar", "Jung-E-Raah", "Jung-E-Mohabbat", "Jung-E-Safa", 
     "Jung-E-Aman", "Jung-E-Qurbani", "Jung-E-Firaaq", "Jung-E-Ishq", "Jung-E-Dastaar",
 
-    # 4. Hinglish Masjid Aur Qila Ke Naam (50 Items)
+    # Masjid Aur Qila Ke Naam (50 Items)
     "Masjid-E-Nawabi", "Qila-E-Mughal", "Masjid-E-Shahi", "Qila-E-Agra", "Masjid-E-Bara", 
     "Qila-E-Taj", "Masjid-E-Hind", "Qila-E-Dilli", "Masjid-E-Mausam", "Qila-E-Raunak", 
     "Masjid-E-Shaan", "Qila-E-Jawahar", "Masjid-E-Barkat", "Qila-E-Dilbar", "Masjid-E-Ishq", 
@@ -512,9 +512,8 @@ islamic_words = [
     "Qila-E-Riyasat", "Masjid-E-Ruhani", "Qila-E-Fateh", "Masjid-E-Tasveer", "Qila-E-Sarhad", 
     "Masjid-E-Zauq", "Qila-E-Raushan", "Masjid-E-Banarsi", "Qila-E-Jashn", "Masjid-E-Nazrana", 
     "Qila-E-Murad", "Masjid-E-Aqsa", "Qila-E-Khuda", "Masjid-E-Raah", "Qila-E-Dastoor",
-
-#------    
-    # 5. Hinglish Islamic Festivals Aur Tyohaar (50 Items)
+    
+    # Islamic Festivals Aur Tyohaar (50 Items)
     "Eid-Ul-Fitr-Ka-Jashn", "Ramzan-Ka-Mahina", "Shab-E-Barat-Ki-Raat", "Laylatul-Qadr-Ka-Noor",
     "Shab-E-Miraj-Ki-Yaad", "Shab-E-Qadr-Ka-Raaz", "Dhul-Hijjah-Ka-Mahina", "Muharram-Ka-Dukh", "Ashura-Ka-Waqt",
     "Jumada-Al-Awwal-Ka-Jashn", "Safar-Ka-Safar", "Rabi-Ul-Awwal-Ki-Khushi", "Rabi-Ul-Thani-Ka-Andaz", "Jumada-Al-Thani-Ka-Mahina",
@@ -526,7 +525,7 @@ islamic_words = [
     "Iftar-Ki-Dastarkhwan", "Eid-Ka-Utsav", "Ramzan-Ka-Ehsas", "Iftar-Ka-Silsila", "Eid-Ki-Raat",
     "Ramzan-Ka-Suhana", "Iftar-Ka-Jashn", "Eid-Ka-Jazba", "Ramzan-Ki-Roshni", "Eid-Ki-Barkat"
 
-    # 6. Hinglish Islamic Science Aur Fankaar (50 Items)
+    # Hinglish Islamic Science Aur Fankaar (50 Items)
     "Ibn-Sina-Ka-Dimaag", "Al-Razi-Ka-Ilm", "Al-Kindi-Ki-Soch", "Ibn-Al-Haytham-Ka-Nazariya", "Al-Farabi-Ka-Falsafa",
     "Ibn-Khaldun-Ka-Tareekh", "Nasir-Al-Din-Tusi-Ka-Hisab", "Ibn-Al-Nafis-Ka-Dil", "Al-Biruni-Ki-Khoj", "Al-Khwarizmi-Ka-Algorithm",
     "Ibn-Battuta-Ka-Safar", "Al-Zahrawi-Ka-Surgery", "Al-Razi-Ke-Dawa", "Ibn-Sina-Ki-Kitab", "Al-Farabi-Ke-Fikr",
@@ -540,7 +539,7 @@ islamic_words = [
 
 
 
-    # 8. Hinglish Tariekhi Shakhsiyat (Islamic Historical Personalities) (50 Items)
+    # Tariekhi Shakhsiyat (Islamic Historical Personalities) (50 Items)
     "Hazrat-Abu-Bakr-E-Hind", "Hazrat-Umar-E-Farishta", "Hazrat-Usman-E-Dilbar", "Hazrat-Ali-E-Saqi", "Hazrat-Bilal-E-Noor",
     "Hazrat-Salman-E-Raaz", "Hazrat-Suhail-E-Raah", "Hazrat-Ammar-E-Imaan", "Hazrat-Khalid-E-Mujahid", "Hazrat-Saad-E-Mohafiz",
     "Hazrat-Zubair-E-Sab", "Hazrat-Abbas-E-Murad", "Hazrat-Hamza-E-Dil", "Hazrat-Abu-Talib-E-Raaz", "Hazrat-Umar-Farooq-E-Haq",
@@ -553,7 +552,7 @@ islamic_words = [
     "Hazrat-Muhammad-E-Sukoon", "Hazrat-Imam-E-Raaz", "Hazrat-Malik-E-Saaz", "Hazrat-Rumi-E-Dilbar", "Hazrat-Sir-Syed-E-Haq"
 
 
-    # 9. Hinglish Islami Falsafa Aur Aqeeda (50 Items)
+    # Islami Falsafa Aur Aqeeda (50 Items)
     "Tawheed-Ka-Paigham", "Shirk-Se-Bachao", "Risalat-Ka-Asar", "Akhirah-Ka-Imaan", "Malaika-Ki-Barkat",
     "Qadar-Ka-Raaz", "Quran-Ka-Noor", "Sunnat-Ka-Silsila", "Hadith-Ka-Paigham", "Fiqh-Ka-Ujala",
     "Ijma-Ka-Ittehad", "Qiyas-Ka-Misaal", "Ijtihad-Ka-Junoon", "Zakat-Ka-Faraiz", "Salah-Ka-Waqt",
